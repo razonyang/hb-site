@@ -1,0 +1,98 @@
+[search]
+name = "Search"
+path = "github.com/razonyang/hugo-mod-search"
+weight = 10
+
+[icons]
+name = "Icons"
+path = "github.com/razonyang/hugo-mod-icons"
+weight = 20
+
+[icons_bootstrap]
+name = "Bootstrap Icons"
+repo = "github.com/razonyang/hugo-mod-icons"
+path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
+weight = 21
+
+[icons_simple_icons]
+name = "Simple Icons"
+repo = "github.com/razonyang/hugo-mod-icons"
+path = "github.com/razonyang/hugo-mod-icons/vendors/simple-icons"
+weight = 22
+
+[icons_font_awesome]
+name = "Font Awesome Icons"
+repo = "github.com/razonyang/hugo-mod-icons"
+path = "github.com/razonyang/hugo-mod-icons/vendors/font-awesome"
+weight = 23
+
+[code_block_panel]
+name = "Search"
+path = "github.com/razonyang/hugo-mod-code-block-panel"
+weight = 30
+
+[pwa]
+name = "PWA"
+path = "github.com/razonyang/hugo-mod-pwa"
+weight = 40
+
+[mermaid]
+name = "Mermaid"
+path = "github.com/razonyang/hugo-mod-mermaid"
+weight = 50
+
+[js_i18n]
+name = "JS i18n"
+path = "github.com/razonyang/hugo-mod-i18n-js"
+weight = 60
+
+[base]
+name = "Base"
+path = "github.com/razonyang/hugo-mod-base"
+weight = 70
+
+[seo]
+name = "Base"
+path = "github.com/razonyang/hugo-mod-seo"
+weight = 80
+
+[hb]
+name = "HB"
+path = "github.com/razonyang/hb"
+weight = 100
+
+[hb_blog]
+name = "HB Blog"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/blog"
+weight = 10
+
+[hb_docs]
+name = "HB Docs"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/docs"
+weight = 10
+
+[hb_header]
+name = "HB Header"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/header"
+weight = 10
+
+[hb_footer]
+name = "HB Footer"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/footer"
+weight = 10
+
+[hb_base]
+name = "HB Base"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/base"
+weight = 10
+
+[hb_pwa]
+name = "HB PWA"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/pwa"
+weight = 10

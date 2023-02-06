@@ -1,0 +1,69 @@
+[fast]
+weight = 1
+title = "Fast"
+description = "Google PageSpeed Insights score is over 90."
+[fast.icon]
+name = "speedometer"
+color = "green"
+
+[bootstrap]
+weight = 2
+title = "Responsive"
+description = "Built on top of [Bootstrap](https://getbootstrap.com) 5.3+."
+[bootstrap.icon]
+name = "bootstrap"
+color = "7633F9"
+
+[pwa]
+weight = 3
+title = "PWA"
+description = "Make site installable, offline available."
+[pwa.icon]
+name = "rocket"
+color = "#DC3545"
+
+[search]
+weight = 4
+title = "Search"
+description = "Powerful client side search module."
+[search.icon]
+name = "search"
+color = "#00008B"
+
+[sass]
+weight = 4
+title = "SASS/SCSS"
+description = "Custom theme and Bootstrap via SASS/SCSS variables."
+[sass.icon]
+vendor = "simple-icons"
+name = "sass"
+color = "#C66394"
+
+[color]
+weight = 4
+title = "Color"
+description = "Light, dark or auto."
+[color.icon]
+name = "circle-half"
+
+[modules]
+weight = 4
+title = "Modules"
+description = "Various powerful modules."
+[modules.icon]
+name = "boxes"
+
+[hugo-pipe]
+weight = 4
+title = "Hugo Pipes"
+description = "Build site with the powerful Hugo pipes."
+[hugo-pipe.icon]
+vendor = "font-awesome-solid"
+name = "grip-lines-vertical"
+
+[rtl]
+weight = 4
+title = "RTL"
+description = "Support right-to-left writing languages."
+[rtl.icon]
+name = "arrow-right-square"

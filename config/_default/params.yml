@@ -1,0 +1,80 @@
+description: >
+  Fast, responsive, flexible, open source and feature-rich Hugo Bootstrap Framework.
+
+hb:
+  header:
+    fixed: true
+    full_width: true
+    # theme: 'classic'
+    logo_bg: "#712cf9"
+    # menus_alignment: 'start'
+  blog:
+    paginate: 9
+    giscus:
+      repo: razonyang/hb-site
+      repo_id: R_kgDOIi8Grg
+      category: General
+      category_id: DIC_kwDOIi8Grs4CTU9f
+    utterances:
+      repo: razonyang/hb-site
+  docs:
+    giscus:
+      repo: razonyang/hb-site
+      repo_id: R_kgDOIi8Grg
+      category: General
+      category_id: DIC_kwDOIi8Grs4CTU9f
+    utterances:
+      repo: razonyang/hb-site
+  footer:
+    powered_by: >
+      Built with ❤️ from [Hugo](https://gohugo.io) and [Hugo Bootstrap Framework](https://hb.razonyang.com).
+
+giscus:
+  repo: razonyang/hb-site
+  repo_id: R_kgDOIi8Grg
+  category: General
+  category_id: DIC_kwDOIi8Grs4CTU9f
+
+utterances:
+  repo: razonyang/hb-site
+
+pwa:
+  precaches:
+  manifest:
+    theme_color: '#712cf9'
+
+code_block_panel:
+  max_lines: 8
+
+# static_cms:
+#   backend:
+#     # name: github
+#     # repo: razonyang/hb-site
+#     # branch: main
+#     name: git-gateway
+#   local_backend: true
+#   i18n:
+#     structure: multiple_files
+#     locales: [en, zh-hans]
+#     defaultLocale: en
+#   collections:
+#     news:
+#       name: "news"
+#       label: "News"
+#       folder: "content/blog/news"
+#       nested:
+#         depth: 100 # max depth to show in the collection tree
+#         summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+#       extension: md
+#       create: true
+#       slug: '{{year}}/{{month}}/{{day}}/{{slug}}'
+#       i18n: true
+#       fields:
+#         - label: "Layout"
+#           name: "layout"
+#           widget: "hidden"
+#           default: "blog"
+#         - { label: "Title", name: "title", widget: "string"}
+#         - { label: "Publish Date", name: "date", widget: "datetime"}
+#         - { label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+#         - { label: "Body", name: "body", widget: "markdown"}

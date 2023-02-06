@@ -1,0 +1,278 @@
+main:
+  - name: Support
+    identifier: support
+    weight: 100
+    url: https://github.com/razonyang/hb
+    params:
+      header: The HB support community.
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+
+  - name: GitHub
+    parent: support
+    url: https://github.com/razonyang/hb
+    weight: 1
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: github
+      description: The code repository.
+
+  - name: Discussion
+    parent: support
+    url: https://github.com/razonyang/hb/discussions
+    weight: 2
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: comments
+        color: green
+      description: Ask questions and share your ideas.
+
+  - name: Bug Report
+    parent: support
+    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    weight: 3
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+      description: Tell us about a bug or issue.
+
+  - name: Feature Request
+    parent: support
+    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    weight: 4
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange
+      description: Suggest new or updated features.
+
+  - name: Sponsor
+    identifier: sponsor
+    parent: support
+    weight: 10
+    params:
+      divider: true
+
+  - name: Open Collective
+    parent: support
+    weight: 11
+    params:
+      description: Sponsor via Open Collective.
+      icon:
+        vendor: simple-icons
+        name: opencollective
+    url: https://opencollective.com/hbs
+
+  - name: PayPal
+    weight: 12
+    parent: support
+    url: https://paypal.me/razonyang
+    params:
+      description: Sponsor via PayPal.
+      icon:
+        vendor: simple-icons
+        name: paypal
+
+  - name: Patreon
+    weight: 13
+    parent: support
+    url: https://www.patreon.com/razonyang
+    params:
+      description: Sponsor via Patreon.
+      icon:
+        vendor: simple-icons
+        name: patreon
+        color: "#ff424d"
+
+footer:
+  - name: Modules
+    identifier: modules
+    weight: 10
+    params:
+      icon:
+        vendor: bootstrap
+        name: boxes
+        color: skyblue
+  - name: HugoPress
+    parent: modules
+    weight: 11
+    url: https://github.com/razonyang/hugopress
+    params:
+      icon:
+        vendor: simple-icons
+        name: hugo
+        color: '#FF4088'
+  - name: Base
+    parent: modules
+    weight: 12
+    url: https://github.com/razonyang/hugo-mod-base
+    params:
+      icon:
+        vendor: simple-icons
+        name: hugo
+        color: '#FF4088'
+  - name: Icons
+    parent: modules
+    weight: 13
+    url: https://github.com/razonyang/hugo-mod-icons
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: icons
+        color: '#F76119'
+  - name: SEO
+    parent: modules
+    weight: 14
+    url: https://github.com/razonyang/hugo-mod-seo
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: magnifying-glass
+        color: '#87CEEB'
+  - name: Search
+    parent: modules
+    weight: 15
+    url: https://github.com/razonyang/hugo-mod-search
+    params:
+      icon:
+        vendor: bootstrap
+        name: search
+        color: '#712cf9'
+
+  - name: HB Modules
+    identifier: hb-modules
+    weight: 20
+    params:
+      icon:
+        vendor: bootstrap
+        name: boxes
+        color: skyblue
+  - name: HB Base
+    parent: hb-modules
+    weight: 21
+    url: https://github.com/razonyang/hb-base
+    params:
+      icon:
+        vendor: bootstrap
+        name: window-sidebar
+  - name: HB Header
+    parent: hb-modules
+    weight: 22
+    url: https://github.com/razonyang/hb-header
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bars
+  - name: HB Footer
+    parent: hb-modules
+    weight: 23
+    url: https://github.com/razonyang/hb-footer
+    params:
+      icon:
+        vendor: bootstrap
+        name: c-circle
+  - name: HB Blog
+    parent: hb-modules
+    weight: 24
+    url: https://github.com/razonyang/hb-blog
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: blog
+  - name: HB Docs
+    parent: hb-modules
+    weight: 25
+    url: https://github.com/razonyang/hb-docs
+    params:
+      icon:
+        vendor: bootstrap
+        name: file-earmark-richtext
+
+  - name: Support
+    identifier: support
+    weight: 30
+    url: https://github.com/razonyang/hb
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+        color: '#0A5DB9'
+  - name: GitHub
+    parent: support
+    url: https://github.com/razonyang/hb
+    weight: 31
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: github
+  - name: Discussion
+    parent: support
+    url: https://github.com/razonyang/hb/discussions
+    weight: 32
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: comments
+        color: green
+  - name: Bug Report
+    parent: support
+    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    weight: 33
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+
+  - name: Feature Request
+    parent: support
+    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    weight: 34
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange
+
+  - name: Sponsor
+    identifier: sponsor
+    weight: 40
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: heart
+        color: "#f44133"
+  - name: Open Collective
+    parent: sponsor
+    weight: 41
+    params:
+      description: Sponsor via Open Collective.
+      icon:
+        vendor: simple-icons
+        name: opencollective
+    url: https://opencollective.com/hbs
+  - name: PayPal
+    weight: 42
+    parent: sponsor
+    url: https://paypal.me/razonyang
+    params:
+      description: Sponsor via PayPal.
+      icon:
+        vendor: simple-icons
+        name: paypal
+  - name: Patreon
+    weight: 43
+    parent: sponsor
+    url: https://www.patreon.com/razonyang
+    params:
+      description: Sponsor via Patreon.
+      icon:
+        vendor: simple-icons
+        name: patreon
+        color: "#ff424d"

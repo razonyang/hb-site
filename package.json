@@ -1,0 +1,35 @@
+{
+  "author": "Razon Yang <razonyang@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/razonyang/hb-site/issues"
+  },
+  "comments": {
+    "dependencies": {
+      "@fullhuman/postcss-purgecss": "project",
+      "autoprefixer": "github.com/razonyang/hb",
+      "bootstrap": "github.com/razonyang/hb",
+      "postcss": "project",
+      "workbox-routing": "github.com/razonyang/hugo-mod-pwa",
+      "workbox-strategies": "github.com/razonyang/hugo-mod-pwa"
+    },
+    "devDependencies": {
+      "prettier": "project",
+      "prettier-plugin-go-template": "project"
+    }
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-go-template": "^0.0.13"
+  },
+  "homepage": "https://github.com/razonyang/hb-site",
+  "license": "MIT",
+  "name": "HB Site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razonyang/hb-site.git"
+  },
+  "scripts": {
+    "dev": "hugo server -p 13131 --gc --disableFastRender",
+    "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk -b http://localhost:13132 -p 13132"
+  }
+}
