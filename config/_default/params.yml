@@ -8,6 +8,43 @@ hb:
     # theme: 'classic'
     logo_bg: "#712cf9"
     # menus_alignment: 'start'
+    socials:
+      github: razonyang
+      patreon: razonyang
+      kofi: razonyang
+      paypal: razonyang
+      opencollective: hbs
+
+      # artstation: user
+      # bilibili: user
+      # bitbucket: user
+      # discourse: https://example.com
+      # dockerhub: razonyang
+      # gmail: mailto:razonyang@gmail.com
+      # facebook: razonyang
+      # facebookgroup: razonyang
+      # gitlab: razonyang
+      # instagram: user
+      # itchdotio: user
+      # kaggle: user
+      # lastdotfm: user
+      # liberapay: user
+      # linkedin: user
+      # mastodon: user
+      # medium: user
+      # pinterest: user
+      # tencentqq: user
+      # quora: user
+      # reddit: user
+      # stackoverflow: user
+      # telegram: user
+      # tiktok: user
+      # tumblr: user
+      # twitter: user
+      # sinaweibo: user
+      # xing: user
+      # youtube: user
+      # zhihu: user
   blog:
     paginate: 9
     giscus:
@@ -26,8 +63,12 @@ hb:
     utterances:
       repo: razonyang/hb-site
   footer:
-    powered_by: >
-      Built with ❤️ from [Hugo](https://gohugo.io) and [Hugo Bootstrap Framework](https://hb.razonyang.com).
+    socials:
+      github: razonyang
+      patreon: razonyang
+      kofi: razonyang
+      paypal: razonyang
+      opencollective: hbs
 
 giscus:
   repo: razonyang/hb-site

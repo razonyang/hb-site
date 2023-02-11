@@ -32,7 +32,7 @@ main:
 
   - name: Bug Report
     parent: support
-    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    url: https://github.com/razonyang/hb/issues/new
     weight: 3
     params:
       icon:
@@ -43,7 +43,7 @@ main:
 
   - name: Feature Request
     parent: support
-    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    url: https://github.com/razonyang/hb/issues/new
     weight: 4
     params:
       icon:
@@ -222,7 +222,7 @@ footer:
         color: green
   - name: Bug Report
     parent: support
-    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    url: https://github.com/razonyang/hb/issues/new
     weight: 33
     params:
       icon:
@@ -232,7 +232,7 @@ footer:
 
   - name: Feature Request
     parent: support
-    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new
+    url: https://github.com/razonyang/hb/issues/new
     weight: 34
     params:
       icon:

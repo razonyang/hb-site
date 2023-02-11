@@ -1,5 +1,5 @@
 baseURL: http://localhost/
-title: Hugo Bootstrap Framework (HB)
+title: Hugo Bootstrap framework (HB)
 copyright: "Copyright © 2022-{year} [Razon Yang](https://github.com/razonyang). All Rights Reserved."
 defaultContentLanguageInSubdir: true
 disqusShortname: hb-site
@@ -8,7 +8,6 @@ module:
   # proxy: https://goproxy.cn
   imports:
     # site modules
-    - path: github.com/razonyang/hugo-mod-seo
     - path: github.com/razonyang/hugo-mod-html
     - path: github.com/razonyang/hb/modules/progress-bar
     - path: github.com/razonyang/hb/modules/back-to-top
@@ -17,6 +16,14 @@ module:
     - path: github.com/razonyang/hb/modules/code-block-panel
     - path: github.com/razonyang/hb/modules/mermaid
     - path: github.com/razonyang/hb/modules/bootstrap
+    # seo modules
+    - path: github.com/razonyang/hugo-mod-seo/modules/base
+    - path: github.com/razonyang/hugo-mod-seo/modules/alternatives
+    - path: github.com/razonyang/hugo-mod-seo/modules/open-graph
+    - path: github.com/razonyang/hugo-mod-seo/modules/schema
+    - path: github.com/razonyang/hugo-mod-seo/modules/twitter-cards
+    - path: github.com/razonyang/hugo-mod-seo/modules/translations
+    - path: github.com/razonyang/hugo-mod-seo/modules/favicons
     # icons modules
     - path: github.com/razonyang/hugo-mod-icons/vendors/simple-icons
     - path: github.com/razonyang/hugo-mod-icons/vendors/font-awesome
@@ -24,6 +31,9 @@ module:
     - path: github.com/razonyang/hb/modules/header/modules/search
     - path: github.com/razonyang/hb/modules/header/modules/theme-toggle
     - path: github.com/razonyang/hb/modules/header/modules/language-picker
+    - path: github.com/razonyang/hb/modules/header/modules/socials
+    # footer modules
+    - path: github.com/razonyang/hb/modules/footer/modules/socials
     # blog modules
     - path: github.com/razonyang/hb/modules/blog
     - path: github.com/razonyang/hb/modules/blog/modules/breadcrumb

@@ -5,12 +5,12 @@
         {{- with .icon }}
           <div
             class="text-bg-light p-1 rounded d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-1">
-            {{ partial "icons/icon" (merge (dict "width" "2em" "height" "2em" "vendor" "bootstrap") .) }}
+            {{ partial "icons/icon" (merge (dict "width" "1.5em" "height" "1.5em" "vendor" "bootstrap") .) }}
           </div>
         {{- end }}
         <div>
           <h3 class="fs-2">{{ .title }}</h3>
-          <p class="mb-0">{{ .description | markdownify }}</p>
+          <p class="mb-0 text-muted">{{ .description | markdownify }}</p>
         </div>
       </div>
     {{- end }}
