@@ -4,7 +4,7 @@ go 1.18
 
 // replace github.com/razonyang/hb/modules/footer => ../hb/modules/footer
 
-// replace github.com/razonyang/hugo-mod-seo/modules/favicons => ../hugo-mod-seo/modules/favicons
+// replace github.com/razonyang/hugo-mod-seo/modules/base => ../hugo-mod-seo/modules/base
 
 // replace github.com/razonyang/hb/modules/socials => ../hb/modules/socials
 
@@ -49,7 +49,7 @@ require (
 	github.com/razonyang/hugo-mod-pwa v0.1.1 // indirect
 	github.com/razonyang/hugo-mod-search v0.14.1 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/alternatives v0.1.0 // indirect
-	github.com/razonyang/hugo-mod-seo/modules/base v0.1.0 // indirect
+	github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/favicons v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/open-graph v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/schema v0.1.0 // indirect

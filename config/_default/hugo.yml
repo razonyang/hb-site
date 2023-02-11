@@ -3,6 +3,7 @@ title: Hugo Bootstrap framework (HB)
 copyright: "Copyright © 2022-{year} [Razon Yang](https://github.com/razonyang). All Rights Reserved."
 defaultContentLanguageInSubdir: true
 disqusShortname: hb-site
+enableRobotsTXT: true
 
 module:
   # proxy: https://goproxy.cn
