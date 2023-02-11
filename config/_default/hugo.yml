@@ -18,7 +18,7 @@ module:
     - path: github.com/razonyang/hb/modules/mermaid
     - path: github.com/razonyang/hb/modules/bootstrap
     # seo modules
-    - path: github.com/razonyang/hugo-mod-seo/modules/base
+    # - path: github.com/razonyang/hugo-mod-seo/modules/base
     - path: github.com/razonyang/hugo-mod-seo/modules/alternatives
     - path: github.com/razonyang/hugo-mod-seo/modules/open-graph
     - path: github.com/razonyang/hugo-mod-seo/modules/schema
