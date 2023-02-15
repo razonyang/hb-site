@@ -12,12 +12,7 @@ A progress bar will be shown when opening a new page in the current tab and wind
 
 <!--more-->
 
-## Installation
-
-{{< bootstrap/config-toggle filename="config" >}}
-[[module.imports]]
-path = "github.com/razonyang/hb/modules/progress-bar"
-{{< /bootstrap/config-toggle >}}
+{{% hb-module progress-bar %}}
 
 ## Site Parameters
 
@@ -28,10 +23,6 @@ path = "github.com/razonyang/hb/modules/progress-bar"
 | `interval`      | `v0.3.0` | number |    -    |  `50`   | The time interval for progress bar to update, in milliseconds. |
 | `time`          | `v0.3.0` | number |    -    |   `2`   | Time taken for progress bar to complete, in seconds.           |
 
-{{< bootstrap/config-toggle filename="config" >}}
-[params.hb.progress_bar]
-height = "2px"
-initial_width = 20
-interval = 50
-time = 2
+{{< bootstrap/config-toggle filename=hugo >}}
+{{% docs/modules/progress-bar/params %}}
 {{< /bootstrap/config-toggle >}}

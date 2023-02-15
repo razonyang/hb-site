@@ -26,6 +26,7 @@ module:
     - path: github.com/razonyang/hugo-mod-seo/modules/translations
     - path: github.com/razonyang/hugo-mod-seo/modules/favicons
     # icons modules
+    - path: github.com/razonyang/hugo-mod-icons
     - path: github.com/razonyang/hugo-mod-icons/vendors/simple-icons
     - path: github.com/razonyang/hugo-mod-icons/vendors/font-awesome
     # header modules
@@ -47,6 +48,7 @@ module:
     # docs modules
     - path: github.com/razonyang/hb/modules/docs
     - path: github.com/razonyang/hb/modules/docs/modules/breadcrumb
+    - path: github.com/razonyang/hb/modules/docs/modules/featured-image
     - path: github.com/razonyang/hb/modules/docs/modules/doc-nav
     - path: github.com/razonyang/hb/modules/docs/modules/giscus
     # - path: github.com/razonyang/hb/modules/docs/modules/utterances

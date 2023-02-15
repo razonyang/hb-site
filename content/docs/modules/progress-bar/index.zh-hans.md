@@ -12,12 +12,7 @@ images = []
 
 <!--more-->
 
-## 安装模块
-
-{{< bootstrap/config-toggle filename="config" >}}
-[[module.imports]]
-path = "github.com/razonyang/hb/modules/progress-bar"
-{{< /bootstrap/config-toggle >}}
+{{% hb-module progress-bar %}}
 
 ## 站点参数
 
@@ -28,10 +23,6 @@ path = "github.com/razonyang/hb/modules/progress-bar"
 | `interval`      | number |    -    |  `50`   | 进度条更新的时间间隔，单位：毫秒。 |
 | `time`          | number |    -    |   `2`   | 进度条完成所需的时间，单位：秒。   |
 
-{{< bootstrap/config-toggle filename="config" >}}
-[params.hb.progress_bar]
-height = "2px"
-initial_width = 20
-interval = 50
-time = 2
+{{< bootstrap/config-toggle filename=hugo >}}
+{{% docs/modules/progress-bar/params %}}
 {{< /bootstrap/config-toggle >}}

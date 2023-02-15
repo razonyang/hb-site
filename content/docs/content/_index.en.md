@@ -1,5 +1,6 @@
 ---
 title: Content
+nav_weight: 3
 nav_icon:
   vendor: bootstrap
   name: card-text

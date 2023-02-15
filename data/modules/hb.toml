@@ -61,6 +61,7 @@ name = "HB"
 path = "github.com/razonyang/hb"
 weight = 100
 
+
 [hb_blog]
 name = "HB Blog"
 repo = "github.com/razonyang/hb"
@@ -77,6 +78,30 @@ weight = 10
 name = "HB Header"
 repo = "github.com/razonyang/hb"
 path = "github.com/razonyang/hb/modules/header"
+weight = 10
+
+[hb_header_socials]
+name = "HB Header Socials"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/header/modules/socials"
+weight = 10
+
+[hb_header_search]
+name = "HB Header Search"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/header/modules/search"
+weight = 10
+
+[hb_header_language]
+name = "HB Header Language Picker"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/header/modules/language-picker"
+weight = 10
+
+[hb_header_theme_toggle]
+name = "HB Header Theme Toggle"
+repo = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/header/modules/theme-toggle"
 weight = 10
 
 [hb_footer]

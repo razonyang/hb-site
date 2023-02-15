@@ -8,6 +8,9 @@ tags:
   - Search
 images:
   - https://api.iconify.design/bi/search.svg?width=48&height=48&color=%23712cf9
+authors:
+  - razonyang
+  - hugo
 ---
 
 A powerful, flexible and responsive [Hugo](https://gohugo.io/) client side fuzzy [search module](https://github.com/razonyang/hugo-mod-search) built on top of [Fuse.js](https://github.com/krisk/Fuse).

@@ -9,7 +9,7 @@ hb:
     logo_bg: "#712cf9"
     # menus_alignment: 'start'
     socials:
-      github: razonyang
+      github: razonyang/hb
       patreon: razonyang
       kofi: razonyang
       paypal: razonyang
@@ -64,7 +64,7 @@ hb:
       repo: razonyang/hb-site
   footer:
     socials:
-      github: razonyang
+      github: razonyang/hb
       patreon: razonyang
       kofi: razonyang
       paypal: razonyang
