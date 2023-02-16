@@ -59,18 +59,8 @@ main:
     params:
       divider: true
 
-  - name: Open Collective
-    parent: support
-    weight: 11
-    params:
-      description: Sponsor via Open Collective.
-      icon:
-        vendor: simple-icons
-        name: opencollective
-    url: https://opencollective.com/hbs
-
   - name: PayPal
-    weight: 12
+    weight: 11
     parent: support
     url: https://paypal.me/razonyang
     params:
@@ -79,8 +69,28 @@ main:
         vendor: simple-icons
         name: paypal
 
-  - name: Patreon
+  - name: Ko-fi
+    weight: 12
+    parent: support
+    url: https://ko-fi.com/razonyang
+    params:
+      description: Sponsor via Ko-fi.
+      icon:
+        vendor: simple-icons
+        name: kofi
+
+  - name: Open Collective
+    parent: support
     weight: 13
+    params:
+      description: Sponsor via Open Collective.
+      icon:
+        vendor: simple-icons
+        name: opencollective
+    url: https://opencollective.com/hbs
+
+  - name: Patreon
+    weight: 14
     parent: support
     url: https://www.patreon.com/razonyang
     params:
@@ -248,17 +258,8 @@ footer:
         vendor: font-awesome-solid
         name: heart
         color: "#f44133"
-  - name: Open Collective
-    parent: sponsor
-    weight: 41
-    params:
-      description: Sponsor via Open Collective.
-      icon:
-        vendor: simple-icons
-        name: opencollective
-    url: https://opencollective.com/hbs
   - name: PayPal
-    weight: 42
+    weight: 41
     parent: sponsor
     url: https://paypal.me/razonyang
     params:
@@ -266,8 +267,26 @@ footer:
       icon:
         vendor: simple-icons
         name: paypal
-  - name: Patreon
+  - name: Ko-fi
+    parent: sponsor
+    weight: 42
+    params:
+      description: Sponsor via Ko-fi.
+      icon:
+        vendor: simple-icons
+        name: kofi
+    url: https://ko-fi.com/razonyang
+  - name: Open Collective
+    parent: sponsor
     weight: 43
+    params:
+      description: Sponsor via Open Collective.
+      icon:
+        vendor: simple-icons
+        name: opencollective
+    url: https://opencollective.com/hbs
+  - name: Patreon
+    weight: 44
     parent: sponsor
     url: https://www.patreon.com/razonyang
     params:

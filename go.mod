@@ -2,15 +2,13 @@ module github.com/razonyang/hb-site
 
 go 1.18
 
-replace github.com/razonyang/hb => ../hb
+// replace github.com/razonyang/hb => ../hb
 
-replace github.com/razonyang/hb/modules/base => ../hb/modules/base
+// replace github.com/razonyang/hb/modules/base => ../hb/modules/base
 
-replace github.com/razonyang/hb/modules/blog => ../hb/modules/blog
+// replace github.com/razonyang/hb/modules/blog => ../hb/modules/blog
 
-replace github.com/razonyang/hb/modules/docs => ../hb/modules/docs
-
-replace github.com/vendor/hello => ../hello
+// replace github.com/razonyang/hb/modules/docs => ../hb/modules/docs
 
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101 // indirect
@@ -22,6 +20,7 @@ require (
 	github.com/razonyang/hb/modules/blog v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/giscus v0.1.0 // indirect
+	github.com/razonyang/hb/modules/blog/modules/heading-sign v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/post-nav v0.1.1 // indirect
 	github.com/razonyang/hb/modules/blog/modules/related-posts v0.1.0 // indirect
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
@@ -31,6 +30,7 @@ require (
 	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.1 // indirect
 	github.com/razonyang/hb/modules/docs/modules/featured-image v0.1.0 // indirect
 	github.com/razonyang/hb/modules/docs/modules/giscus v0.1.0 // indirect
+	github.com/razonyang/hb/modules/docs/modules/heading-sign v0.1.0 // indirect
 	github.com/razonyang/hb/modules/footer v0.2.1 // indirect
 	github.com/razonyang/hb/modules/footer/modules/socials v0.1.2 // indirect
 	github.com/razonyang/hb/modules/header v0.1.8 // indirect
@@ -41,6 +41,7 @@ require (
 	github.com/razonyang/hb/modules/mermaid v0.1.0 // indirect
 	github.com/razonyang/hb/modules/progress-bar v0.3.0 // indirect
 	github.com/razonyang/hb/modules/pwa v0.1.0 // indirect
+	github.com/razonyang/hb/modules/scrollbar v0.1.0 // indirect
 	github.com/razonyang/hb/modules/socials v0.3.0 // indirect
 	github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-bootstrap v0.3.0 // indirect
@@ -64,5 +65,4 @@ require (
 	github.com/razonyang/hugo-mod-snackbar v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-workbox v0.1.0 // indirect
 	github.com/razonyang/hugopress v0.7.1 // indirect
-	github.com/vendor/hello v0.0.0-00010101000000-000000000000 // indirect
 )

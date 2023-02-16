@@ -1,5 +1,5 @@
 baseURL: http://localhost/
-title: Hugo Bootstrap framework (HB)
+title: Hugo Bootstrap Framework (HB)
 copyright: "Copyright © 2022-{year} [Razon Yang](https://github.com/razonyang). All Rights Reserved."
 defaultContentLanguageInSubdir: true
 disqusShortname: hb-site
@@ -17,6 +17,7 @@ module:
     - path: github.com/razonyang/hb/modules/code-block-panel
     - path: github.com/razonyang/hb/modules/mermaid
     - path: github.com/razonyang/hb/modules/bootstrap
+    - path: github.com/razonyang/hb/modules/scrollbar
     # syntax highlighting
     - path: github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox
     # seo modules
@@ -47,6 +48,7 @@ module:
     - path: github.com/razonyang/hb/modules/blog/modules/breadcrumb
     - path: github.com/razonyang/hb/modules/blog/modules/post-nav
     - path: github.com/razonyang/hb/modules/blog/modules/related-posts
+    - path: github.com/razonyang/hb/modules/blog/modules/heading-sign
     # docs modules
     - path: github.com/razonyang/hb/modules/docs
     - path: github.com/razonyang/hb/modules/docs/modules/breadcrumb
@@ -55,8 +57,7 @@ module:
     - path: github.com/razonyang/hb/modules/docs/modules/giscus
     # - path: github.com/razonyang/hb/modules/docs/modules/utterances
     # - path: github.com/razonyang/hb/modules/docs/modules/disqus
-    - path: github.com/vendor/hello
-
+    - path: github.com/razonyang/hb/modules/docs/modules/heading-sign
 outputs:
   home:
     - HTML

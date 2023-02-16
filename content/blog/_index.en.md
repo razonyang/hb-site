@@ -1,5 +1,6 @@
 ---
 title: Blog
+layout: index
 menu:
   main:
     identifier: blog
