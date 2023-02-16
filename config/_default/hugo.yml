@@ -17,6 +17,8 @@ module:
     - path: github.com/razonyang/hb/modules/code-block-panel
     - path: github.com/razonyang/hb/modules/mermaid
     - path: github.com/razonyang/hb/modules/bootstrap
+    # syntax highlighting
+    - path: github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox
     # seo modules
     # - path: github.com/razonyang/hugo-mod-seo/modules/base
     - path: github.com/razonyang/hugo-mod-seo/modules/alternatives
@@ -53,6 +55,7 @@ module:
     - path: github.com/razonyang/hb/modules/docs/modules/giscus
     # - path: github.com/razonyang/hb/modules/docs/modules/utterances
     # - path: github.com/razonyang/hb/modules/docs/modules/disqus
+    - path: github.com/vendor/hello
 
 outputs:
   home:

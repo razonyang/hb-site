@@ -1,8 +1,8 @@
 +++
 title = "Mermaid"
 date = 2023-01-22T15:20:32+08:00
-tags = ["Mermaid"]
-categories = ["Diagrams"]
+tags = ["Mermaid", "Diagrams"]
+categories = ["Module"]
 series = ["Docs"]
 images = ["https://mermaid.js.org/header.png"]
 +++
@@ -11,12 +11,7 @@ Mermaid is a JavaScript-based diagramming and charting tool that uses Markdown-i
 
 <!--more-->
 
-## Installation
-
-{{< bootstrap/config-toggle config >}}
-[[module.imports]]
-path = "github.com/razonyang/hugo-mod-bootstrap"
-{{< /bootstrap/config-toggle >}}
+{{% hb-module mermaid %}}
 
 ## Usages
 

@@ -6,23 +6,36 @@ nav_weight: 1
 series:
   - Docs
 categories:
-  - Style Guide
+  - Develop
 tags:
   - CSS
   - HTML
   - JavaScript
+  - SCSS
+  - Style Guide
+  - TypeScript
 ---
 
 Undoubtedly, the same coding style helps developers to cooperate with each other.
-We suggest taking a few minutes to learn about the coding style used, if you plan to join us.
+We suggest taking a few minutes to learn about the coding style used, if you're going to help us improve the code.
 
 <!--more-->
 
-## Style Guides
+## TypeScript Style Guide
 
-1. [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) for HTML and CSS.
-1. [JavaScript Standard Style](https://standardjs.com/) for JavaScript.
-1. [Typescript Standard Style](https://github.com/standard/ts-standard) for TypeScript.
+We use eslint to check the SCSS styles.
+
+```sh
+npm run eslint
+```
+
+## SCSS Style Guide
+
+We use stylelint to check the SCSS styles.
+
+```sh
+npm run stylelint
+```
 
 ## Hugo Style Guide
 
@@ -32,22 +45,22 @@ We suggest taking a few minutes to learn about the coding style used, if you pla
 
 Since Hugo parameters are case-insensitive, [snake_case](https://en.wikipedia.org/wiki/Snake_case) are preferred.
 
-| Parameter |
-|---|---
-| `FooBar` | ❎
-| `fooBar` | ❎
-| `foobar` | ❎
-| `foo-bar` | ❎
-| `foo_bar` | ✅
+| Parameter |     |
+| --------- | --- |
+| `FooBar`  | ❌  |
+| `fooBar`  | ❌  |
+| `foobar`  | ❌  |
+| `foo-bar` | ❌  |
+| `foo_bar` | ✅  |
 
 #### File Naming Convention
 
 The filenames are case-sensitive on most file systems, so we recommend always using `kebab-case`.
 
-| Filename | 
-|---|---
-| `fooBar.html` | ❎
-| `foo-bar.html` | ✅
+| Filename       |
+| -------------- | --- |
+| `fooBar.html`  | ❌  |
+| `foo-bar.html` | ✅  |
 
 #### Variables Naming Conventions
 

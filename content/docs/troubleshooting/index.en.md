@@ -14,7 +14,7 @@ images = []
 
 ## POSTCSS CLI
 
-```log
+```cobol
 Error: Error building site: POSTCSS: failed to transform "hb/scss/index.css" (text/css). Check your PostCSS installation.
 ```
 
@@ -28,7 +28,7 @@ sudo npm i -g postcss-cli
 
 ## RTLCSS
 
-```log
+```cobol
 POSTCSS: failed to transform "hb/scss/index.rtl.css" (text/css): Plugin Error: Cannot find package 'rtlcss' imported from /usr/lib/node_modules/postcss-cli/index.js'
 ```
 
@@ -42,7 +42,7 @@ sudo npm i -g rtlcss
 
 ## PurgeCSS Configuration
 
-```log
+```cobol
 Error: Error building site: POSTCSS: failed to transform "hb/scss/index.css" (text/css): Error: Failed to parse runtime PurgeCSS config: Error: ENOENT: no such file or directory, open './public/.build/purgecss.json'.
 Please enable the "--renderToDisk" if you are using Hugo server.
 ```
@@ -56,7 +56,7 @@ hugo server -e production --renderToDisk
 
 ## Hugo Stats File
 
-```log
+```cobol
 Error: Error building site: POSTCSS: failed to transform "hb/scss/index.css" (text/css): /home/razonyang/Projects/razonyang/hb/purgecss.config.js:5
         throw new Error('Hugo stats file not found, please enable the "build.writeStats".')
         ^
@@ -68,9 +68,9 @@ build:
   writeStats: true
 ```
 
-## autoprefixer
+## Autoprefixer
 
-```log
+```cobol
 Error: Error building site: POSTCSS: failed to transform "hb/scss/index.css" (text/css): Error: Cannot find module '/usr/lib/node_modules/autoprefixer'
 ```
 
@@ -80,7 +80,7 @@ sudo npm i -g autoprefixer
 
 ## POSTCSS PurgeCSS
 
-```log
+```cobol
 Error: Error building site: POSTCSS: failed to transform "hb/scss/index.css" (text/css): Error: Cannot find module '@fullhuman/postcss-purgecss'
 ```
 
