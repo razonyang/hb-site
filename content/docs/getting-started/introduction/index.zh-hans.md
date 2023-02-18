@@ -9,7 +9,7 @@ tags:
   - 简介
 ---
 
-HB（Hugo Bootstrap）是一个基于模块的框架，其构建于 [Hugo](https://gohugo.io) 和 [Bootstrap v5.3.0+](https://getbootstrap.com) 之上。
+HB（Hugo Bootstrap）是一个模块化的框架，其构建于 [Hugo](https://gohugo.io) 和 [Bootstrap v5.3.0+](https://getbootstrap.com) 之上。
 HB 不是一个主题，而是用来建立一个主题的。
 
 ## 动机

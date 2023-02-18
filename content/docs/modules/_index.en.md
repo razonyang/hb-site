@@ -7,4 +7,14 @@ nav_icon:
   vendor: bootstrap
   name: boxes
   color: 'skyblue'
+menu:
+  footer:
+    name: HB Modules
+    identifier: hb-modules
+    weight: 20
+    params:
+      icon:
+        vendor: bootstrap
+        name: boxes
+        color: darkblue
 ---

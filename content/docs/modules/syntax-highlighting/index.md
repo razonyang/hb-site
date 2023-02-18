@@ -29,7 +29,9 @@ markup:
 [Preview all styles online](https://xyproto.github.io/splash/docs/all.html).
 
 {{% bootstrap/alert warning %}}
+{{% markdownify %}}
 The module path doesn't contain underscore (`_`), you'll need to replace it with dash (`-`). i.e. `algol_nu` should be replaced with `algol-nu`.
+{{% /markdownify %}}
 {{% /bootstrap/alert %}}
 
 {{% syntax-highlighting-modules %}}

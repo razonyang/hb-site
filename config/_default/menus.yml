@@ -15,7 +15,7 @@ main:
     weight: 1
     params:
       icon:
-        vendor: font-awesome-brands
+        vendor: fab
         name: github
       description: The code repository.
 
@@ -79,27 +79,6 @@ main:
         vendor: simple-icons
         name: kofi
 
-  - name: Open Collective
-    parent: support
-    weight: 13
-    params:
-      description: Sponsor via Open Collective.
-      icon:
-        vendor: simple-icons
-        name: opencollective
-    url: https://opencollective.com/hbs
-
-  - name: Patreon
-    weight: 14
-    parent: support
-    url: https://www.patreon.com/razonyang
-    params:
-      description: Sponsor via Patreon.
-      icon:
-        vendor: simple-icons
-        name: patreon
-        color: "#ff424d"
-
 footer:
   - name: Modules
     identifier: modules
@@ -154,39 +133,41 @@ footer:
         vendor: bootstrap
         name: search
         color: '#712cf9'
-
-  - name: HB Modules
-    identifier: hb-modules
-    weight: 20
+  - name: Code Block Panel
+    parent: modules
+    weight: 16
+    url: https://github.com/razonyang/hugo-mod-code-block-panel
     params:
       icon:
         vendor: bootstrap
-        name: boxes
-        color: skyblue
+        name: code-square
+        color: '#712cf9'
+  - name: Giscus
+    parent: modules
+    weight: 17
+    url: https://github.com/razonyang/hugo-mod-giscus
+    params:
+      icon:
+        vendor: fas
+        name: comments
+  - name: Utterances
+    parent: modules
+    weight: 18
+    url: https://github.com/razonyang/hugo-mod-utterances
+    params:
+      icon:
+        vendor: fas
+        name: comments
+
+  
   - name: HB Base
     parent: hb-modules
     weight: 21
     url: https://github.com/razonyang/hb-base
     params:
       icon:
-        vendor: bootstrap
+        vendor: bs
         name: window-sidebar
-  - name: HB Header
-    parent: hb-modules
-    weight: 22
-    url: https://github.com/razonyang/hb-header
-    params:
-      icon:
-        vendor: font-awesome-solid
-        name: bars
-  - name: HB Footer
-    parent: hb-modules
-    weight: 23
-    url: https://github.com/razonyang/hb-footer
-    params:
-      icon:
-        vendor: bootstrap
-        name: c-circle
   - name: HB Blog
     parent: hb-modules
     weight: 24
@@ -206,7 +187,7 @@ footer:
 
   - name: Support
     identifier: support
-    weight: 30
+    weight: 40
     url: https://github.com/razonyang/hb
     params:
       icon:
@@ -216,7 +197,7 @@ footer:
   - name: GitHub
     parent: support
     url: https://github.com/razonyang/hb
-    weight: 31
+    weight: 41
     params:
       icon:
         vendor: font-awesome-brands
@@ -224,16 +205,16 @@ footer:
   - name: Discussion
     parent: support
     url: https://github.com/razonyang/hb/discussions
-    weight: 32
+    weight: 42
     params:
       icon:
-        vendor: font-awesome-regular
+        vendor: far
         name: comments
         color: green
   - name: Bug Report
     parent: support
     url: https://github.com/razonyang/hb/issues/new
-    weight: 33
+    weight: 43
     params:
       icon:
         vendor: font-awesome-solid
@@ -243,24 +224,15 @@ footer:
   - name: Feature Request
     parent: support
     url: https://github.com/razonyang/hb/issues/new
-    weight: 34
+    weight: 44
     params:
       icon:
         vendor: font-awesome-regular
         name: lightbulb
         color: orange
-
-  - name: Sponsor
-    identifier: sponsor
-    weight: 40
-    params:
-      icon:
-        vendor: font-awesome-solid
-        name: heart
-        color: "#f44133"
   - name: PayPal
-    weight: 41
-    parent: sponsor
+    weight: 45
+    parent: support
     url: https://paypal.me/razonyang
     params:
       description: Sponsor via PayPal.
@@ -268,30 +240,11 @@ footer:
         vendor: simple-icons
         name: paypal
   - name: Ko-fi
-    parent: sponsor
-    weight: 42
+    parent: support
+    weight: 46
     params:
       description: Sponsor via Ko-fi.
       icon:
-        vendor: simple-icons
+        vendor: simple
         name: kofi
     url: https://ko-fi.com/razonyang
-  - name: Open Collective
-    parent: sponsor
-    weight: 43
-    params:
-      description: Sponsor via Open Collective.
-      icon:
-        vendor: simple-icons
-        name: opencollective
-    url: https://opencollective.com/hbs
-  - name: Patreon
-    weight: 44
-    parent: sponsor
-    url: https://www.patreon.com/razonyang
-    params:
-      description: Sponsor via Patreon.
-      icon:
-        vendor: simple-icons
-        name: patreon
-        color: "#ff424d"

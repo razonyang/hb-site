@@ -3,14 +3,26 @@ title: "Prerequisites"
 date: 2022-12-19T14:53:42+08:00
 draft: false
 tags:
+  - NPM
+  - Yarn
+  - Go
+  - Hugo
+  - Git
+  - NodeJS
+  - PurgeCSS
+  - RTLCSS
+  - Autoprefixer
 categories:
+  - Build Tools
+  - Configuration
 series:
+  - Docs
 nav_weight: 2
 ---
 
 Please make sure you meet the prerequisites prior to using or developing the HB and its modules.
 
-## Configuration
+## Required Configurations
 
 {{< bootstrap/config-toggle filename=hugo >}}
 [build]
@@ -40,15 +52,20 @@ HB doesn't require NPM or Yarn, but it's recommended to have one, to install Pos
 npm i postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
 ```
 
-> You can also install those packages globally (with `-g` or `--global` flag).
+You can also install those packages globally (with `-g` or `--global` flag).
+
+```sh
+sudo npm i -g postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
+```
+
 
 ## Notes
 
-### Do Not Changing `hb` and `hugopress` Parameters via Language-Scoped Configurations
+### Please Do Not Changing `hb` and `hugopress` Parameters via Language-Scoped Configurations
 
 HB relies on the configurations cross modules, but there is an known [issue](https://github.com/gohugoio/hugo/issues/10620) that language-scoped parameters will override the params instead of deep merging, which break the configurations cross modules.
 
-The following configuration example is not allowed.
+For example, the following configuration example is **not** allowed.
 
 {{< bootstrap/config-toggle filename=hugo >}}
 [[language.en]]
