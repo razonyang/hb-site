@@ -18,6 +18,14 @@ categories:
 series:
   - 文档
 nav_weight: 2
+menu:
+  footer:
+    parent: docs
+    weight: 32
+    params:
+      icon:
+        vendor: bs
+        name: card-checklist
 ---
 
 在使用或开发 HB 及其模块之前，请确保你满足先决条件。

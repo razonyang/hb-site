@@ -9,6 +9,15 @@ categories:
 tags:
   - Search
 images:
+menu:
+  footer:
+    identifier: hb-search
+    parent: hb-modules
+    weight: 26
+    params:
+      icon:
+        vendor: bs
+        name: search
 ---
 
 The search module integrates HB with the [Hugo Search Module](https://github.com/razonyang/hugo-mod-search), a powerful, flexible and responsive Hugo client side fuzzy search module.

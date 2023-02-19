@@ -8,6 +8,14 @@ series:
 categories:
   - Installation
 tags:
+menu:
+  footer:
+    parent: docs
+    weight: 33
+    params:
+      icon:
+        vendor: bs
+        name: download
 ---
 
 WIP.

@@ -10,6 +10,14 @@ categories:
 tags:
   - 多语言
 images:
+menu:
+  footer:
+    parent: docs
+    weight: 36
+    params:
+      icon:
+        vendor: bs
+        name: translate
 ---
 
 于[配置结构]({{< ref "docs/configuration/structure" >}})一文中，我们对配置有了一个清晰的了解，接下来将介绍如何对多语言站点进行语言配置。

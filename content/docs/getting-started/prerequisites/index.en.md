@@ -18,6 +18,14 @@ categories:
 series:
   - Docs
 nav_weight: 2
+menu:
+  footer:
+    parent: docs
+    weight: 32
+    params:
+      icon:
+        vendor: bs
+        name: card-checklist
 ---
 
 Please make sure you meet the prerequisites prior to using or developing the HB and its modules.

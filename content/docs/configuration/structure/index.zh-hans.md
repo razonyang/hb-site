@@ -9,6 +9,14 @@ categories:
   - 配置
 tags:
 images:
+menu:
+  footer:
+    parent: docs
+    weight: 34
+    params:
+      icon:
+        vendor: fas
+        name: folder-tree
 ---
 
 本文将尽量简单地介绍 Hugo 的配置结构，以便你能更好地理解文档中的配置，即使你刚刚接触 Hugo。

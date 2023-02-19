@@ -142,23 +142,22 @@ footer:
         vendor: bootstrap
         name: code-square
         color: '#712cf9'
-  - name: Giscus
-    parent: modules
-    weight: 17
-    url: https://github.com/razonyang/hugo-mod-giscus
-    params:
-      icon:
-        vendor: fas
-        name: comments
-  - name: Utterances
-    parent: modules
-    weight: 18
-    url: https://github.com/razonyang/hugo-mod-utterances
-    params:
-      icon:
-        vendor: fas
-        name: comments
-
+  # - name: Giscus
+  #   parent: modules
+  #   weight: 17
+  #   url: https://github.com/razonyang/hugo-mod-giscus
+  #   params:
+  #     icon:
+  #       vendor: fas
+  #       name: comments
+  # - name: Utterances
+  #   parent: modules
+  #   weight: 18
+  #   url: https://github.com/razonyang/hugo-mod-utterances
+  #   params:
+  #     icon:
+  #       vendor: fas
+  #       name: comments
   
   - name: HB Base
     parent: hb-modules

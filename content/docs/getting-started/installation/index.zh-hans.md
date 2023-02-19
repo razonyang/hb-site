@@ -8,6 +8,14 @@ series:
 categories:
   - 安装
 tags:
+menu:
+  footer:
+    parent: docs
+    weight: 33
+    params:
+      icon:
+        vendor: bs
+        name: download
 ---
 
 WIP.

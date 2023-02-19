@@ -23,7 +23,7 @@ We suggest taking a few minutes to learn about the coding style used, if you're 
 
 ## TypeScript Style Guide
 
-We use eslint to check the SCSS styles.
+We use eslint to check the TypeScript and JavaScript styles.
 
 ```sh
 npm run eslint

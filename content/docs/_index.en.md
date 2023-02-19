@@ -8,6 +8,7 @@ menu:
         vendor: font-awesome-regular
         name: file
   footer:
+    identifier: docs
     weight: 30
     params:
       icon: 

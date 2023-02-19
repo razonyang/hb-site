@@ -1,6 +1,6 @@
 baseURL: http://localhost/
 title: Hugo Bootstrap Framework (HB)
-copyright: "Copyright © 2022-{year} [HB](https://hb.razonyang.com). All Rights Reserved."
+copyright: "Copyright © 2022-{year} [Hugo Bootstrap Framework](https://hb.razonyang.com). All Rights Reserved."
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 disqusShortname: hb-site
@@ -19,6 +19,7 @@ module:
     - path: github.com/razonyang/hb/modules/mermaid
     - path: github.com/razonyang/hb/modules/bootstrap
     - path: github.com/razonyang/hb/modules/scrollbar
+    - path: github.com/razonyang/hb/modules/bigger-picture
     # syntax highlighting
     - path: github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox
     # seo modules

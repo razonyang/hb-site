@@ -7,6 +7,14 @@ series:
   - 文档
 tags:
   - 简介
+menu:
+  footer:
+    parent: docs
+    weight: 31
+    params:
+      icon:
+        vendor: fas
+        name: hands-clapping
 ---
 
 HB（Hugo Bootstrap）是一个模块化的框架，其构建于 [Hugo](https://gohugo.io) 和 [Bootstrap v5.3.0+](https://getbootstrap.com) 之上。

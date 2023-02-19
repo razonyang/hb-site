@@ -10,6 +10,14 @@ categories:
 tags:
 images:
 nav_weight: 1
+menu:
+  footer:
+    parent: docs
+    weight: 34
+    params:
+      icon:
+        vendor: fas
+        name: folder-tree
 ---
 
 This article will try to briefly introduce Hugo's configuration structure so that you can better understand the configuration in the documentation, even if you are new to Hugo.

@@ -10,6 +10,14 @@ categories:
 tags:
   - Multilingual
 images:
+menu:
+  footer:
+    parent: docs
+    weight: 36
+    params:
+      icon:
+        vendor: bs
+        name: translate
 ---
 
 In [Configuration Structure]({{< ref "docs/configuration/structure" >}}), we have a clear understanding of configuration, and then we will introduce how to configure languages for multilingual sites.

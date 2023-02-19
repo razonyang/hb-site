@@ -18,7 +18,7 @@ The socials module is a helper to generate social links.
 
 {{% hb-module socials %}}
 
-This module cannot be used independently, and you do not need to explicitly import this module, since it will be imported by related modules automatically, such as [header's socials]({{< ref "docs/modules/header/socials" >}}).
+This module cannot be used independently, and you do not need to explicitly import this module, since it will be imported by related modules automatically, such as [header's socials]({{< ref "docs/modules/header/socials" >}}) and [footer's socials]({{< ref "docs/modules/footer/socials" >}}).
 
 ## Identifiers
 

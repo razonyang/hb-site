@@ -10,6 +10,14 @@ categories:
 tags:
   - 菜单
 images:
+menu:
+  footer:
+    parent: docs
+    weight: 35
+    params:
+      icon:
+        vendor: fas
+        name: bars
 ---
 
 本文介绍菜单的属性和如何设置菜单。
@@ -59,4 +67,4 @@ menu:
     weight: 2
 {{< /bootstrap/config-toggle >}}
 
-这种方式，不需要额外指定菜单的名称和 URL。
+这种方式不需要额外指定菜单的名称和 URL。

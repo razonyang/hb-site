@@ -10,6 +10,14 @@ categories:
 tags:
   - Menus
 images:
+menu:
+  footer:
+    parent: docs
+    weight: 35
+    params:
+      icon:
+        vendor: fas
+        name: bars
 ---
 
 This article describes the properties of the menu entry and how to config the menus.
@@ -59,4 +67,4 @@ menu:
     weight: 2
 {{< /bootstrap/config-toggle >}}
 
-This way, it's no need to explicitly specify the menu name and URL.
+It's no need to explicitly specify the menu name and URL.

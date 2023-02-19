@@ -4,6 +4,8 @@ go 1.18
 
 replace github.com/razonyang/hb/modules/base => ../hb/modules/base
 
+replace github.com/razonyang/hb/modules/bigger-picture => ../hb/modules/bigger-picture
+
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
@@ -11,6 +13,7 @@ require (
 	github.com/razonyang/hb v0.6.0 // indirect
 	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
 	github.com/razonyang/hb/modules/base v0.3.9 // indirect
+	github.com/razonyang/hb/modules/bigger-picture v0.0.0-00010101000000-000000000000 // indirect
 	github.com/razonyang/hb/modules/blog v0.1.1 // indirect
 	github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.0 // indirect

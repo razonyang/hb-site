@@ -7,6 +7,14 @@ series:
   - Docs
 tags:
   - Introduction
+menu:
+  footer:
+    parent: docs
+    weight: 31
+    params:
+      icon:
+        vendor: fas
+        name: hands-clapping
 ---
 
 HB (Hugo Bootstrap) is a modular framework that built on top of [Hugo](https://gohugo.io) and [Bootstrap v5.3.0+](https://getbootstrap.com).

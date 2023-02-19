@@ -1,37 +1,34 @@
 ---
 title: "Menus"
-date: 2023-02-17T00:43:12+08:00
+date: 2023-02-19T08:14:04+08:00
 draft: false
 series:
   - Docs
 categories:
   - Module
-  - Header
-tags:
   - Menus
-  - Header Menus
+tags:
+  - Footer
+  - Footer Menus
 images:
 ---
 
-This article describes how to configure the header's menus.
+This article describes how to configure the footer's menus.
 
 <!--more-->
 
-> The header's menus maximum depth is limited up to two levels.
+As the image shown, the footer's menus has two levels.
 
 ## Menus Set Identifier
 
-The `main` is taken as the header's menus set identifier.
+The `footer` is taken as the footer's menus set identifier.
 
-## Header Menu Entry Params
+## Footer Menu Entry Params
 
 | Parameter     |  Type   | Description                                                     |
 | :------------ | :-----: | :-------------------------------------------------------------- |
-| `header`      | string  | The header of dropdown menus, available on top level menu only. |
-| `divider`     | boolean | Show the divider if `true`.                                     |
-| `description` | string  | The description for sub menus only.                             |
 | `icon`        | object  | The icon parameters.                                            |
-| `icon.vendor` | string  | The icon's vendor, required.                                    |
+| `icon.vendor` | string  | The icon's vendor，required.                                    |
 | `icon.name`   | string  | The icon's name, required.                                      |
 | `icon.color`  | string  | The icon's color.                                               |
 
@@ -39,10 +36,10 @@ See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}).
 
 ## Example
 
-![Header Menus Example](example.png)
+![Footer Menus Example](example.png)
 
 {{< bootstrap/config-toggle filename=menus >}}
-{{% docs/modules/header/menus/example %}}
+{{% docs/modules/footer/menus/example %}}
 {{< /bootstrap/config-toggle >}}
 
 The example above use the Bootstrap icons, if the icons do not show up, please check if you've installed/imported the following module.
