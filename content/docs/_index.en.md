@@ -1,7 +1,8 @@
 ---
-title: Docs
+title: Documentations
 menu:
   main:
+    name: Docs
     weight: 2
     params:
       icon: 

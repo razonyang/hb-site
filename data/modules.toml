@@ -385,9 +385,51 @@ path = "github.com/razonyang/hb/modules/bootstrap"
 name = "HB PWA"
 path = "github.com/razonyang/hb/modules/pwa"
 
+[[hb.children]]
+name = "HB Snackbar"
+path = "github.com/razonyang/hb/modules/snackbar"
+
+[[hb.children]]
+name = "HB No Script"
+path = "github.com/razonyang/hb/modules/noscript"
+
+[[hb.children]]
+name = "HB Background Image"
+path = "github.com/razonyang/hb/modules/background-image"
+ref = "docs/modules/background-image"
+
+[[hb.children]]
+name = "HB Cloudflare Rocket Loader"
+path = "github.com/razonyang/hb/modules/cloudflare-rocket-loader"
+
+[[hb.children]]
+name = "HB Heading Sign"
+path = "github.com/razonyang/hb/modules/heading-sign"
+
+[[hb.children]]
+name = "HB Bigger Picture"
+path = "github.com/razonyang/hb/modules/bigger-picture"
+ref = "docs/modules/bigger-picture"
+
 [code_block_panel]
 name = "Code Block Panel"
 path = "github.com/razonyang/hugo-mod-code-block-panel"
+
+[hugopress]
+name = "HugoPress"
+path = "github.com/razonyang/hugopress"
+
+[snackbar]
+name = "Snackbar"
+path = "github.com/razonyang/hugo-mod-snackbar"
+
+[idb]
+name = "IndexedDB"
+path = "github.com/razonyang/hugo-mod-idb"
+
+[fuse_js]
+name = "Fuse.js"
+path = "github.com/razonyang/hugo-mod-fuse-js"
 
 [giscus]
 name = "Giscus Comments Engine"
@@ -402,8 +444,12 @@ name = "Gravatar"
 path = "github.com/razonyang/hugo-mod-gravatar"
 
 [seo]
-name = "SEO"
+name = "SEO Base"
 path = "github.com/razonyang/hugo-mod-seo"
+hide = true
+[[seo.children]]
+name = "SEO Base"
+path = "github.com/razonyang/hugo-mod-seo/modules/base"
 [[seo.children]]
 name = "SEO Alternatives"
 path = "github.com/razonyang/hugo-mod-seo/modules/alternatives"

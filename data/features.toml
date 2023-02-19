@@ -1,69 +1,96 @@
 [fast]
 weight = 1
 title = "Fast"
-description = "Google PageSpeed Insights score is over 90."
+description = "Impressive Google PageSpeed Insights performance 💯."
 [fast.icon]
 name = "speedometer"
 color = "green"
 
-[bootstrap]
+[foss]
 weight = 2
+title = "FOSS"
+description = "Free and open source software, code licensed [MIT](https://github.com/razonyang/hb/blob/main/LICENSE)."
+[foss.icon]
+name = "share"
+color = "green"
+
+[bootstrap]
+weight = 3
 title = "Responsive"
-description = "Built on top of [Bootstrap](https://getbootstrap.com) 5.3+."
+description = "Mobile first, built on top of the [Bootstrap](https://getbootstrap.com) 5.3+."
 [bootstrap.icon]
 name = "bootstrap"
 color = "7633F9"
 
+[modular]
+weight = 4
+title = "Modular"
+description = "Over 100 built-in modules."
+[modular.icon]
+name = "boxes"
+
 [pwa]
-weight = 3
+weight = 4
 title = "PWA"
-description = "Make site installable, offline available."
+description = "Make sites installable, offline available, works as a native application."
 [pwa.icon]
 name = "rocket"
 color = "#DC3545"
 
 [search]
-weight = 4
+weight = 5
 title = "Search"
-description = "Powerful client side search module."
+description = "Powerful and fast client side fuzzy search module."
 [search.icon]
 name = "search"
 color = "#00008B"
 
 [sass]
-weight = 4
+weight = 6
 title = "SASS/SCSS"
-description = "Custom theme and Bootstrap via SASS/SCSS variables."
+description = "Customize the Bootstrap and HB framework via SASS/SCSS."
 [sass.icon]
 vendor = "simple-icons"
 name = "sass"
 color = "#C66394"
 
 [color]
-weight = 4
+weight = 7
 title = "Color"
-description = "Light, dark or auto."
+description = "Supports light and dark colors, or auto (follow system)."
 [color.icon]
 name = "circle-half"
 
-[modules]
-weight = 4
-title = "Modules"
-description = "Various powerful modules."
-[modules.icon]
-name = "boxes"
-
 [hugo-pipe]
-weight = 4
+weight = 8
 title = "Hugo Pipes"
-description = "Build site with the powerful Hugo pipes."
+description = "Building sites with the powerful Hugo Pipes."
 [hugo-pipe.icon]
 vendor = "font-awesome-solid"
 name = "grip-lines-vertical"
+color = "orange"
 
 [rtl]
-weight = 4
+weight = 9
 title = "RTL"
-description = "Support right-to-left writing languages."
+description = "Support right-to-left writing languages via RTLCSS."
 [rtl.icon]
 name = "arrow-right-square"
+
+[icons]
+weight = 11
+title = "Icons"
+description = "Bootstrap, FontAwesome, Feather, Tabler, Material Design and Simple icons."
+[icons.icon]
+vendor = "fas"
+name = "icons"
+color = "#dc3545"
+
+[purgecss]
+weight = 12
+title = "PurgeCSS"
+description = "Remove the unused styles from your sites on production."
+[purgecss.icon]
+vendor = "simple"
+name = "purgecss"
+

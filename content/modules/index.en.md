@@ -7,6 +7,6 @@ menus:
     identifier: modules
 ---
 
-## HB Modules
+## Modules
 
 {{< modules "hb" >}}

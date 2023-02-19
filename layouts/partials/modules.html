@@ -1,5 +1,8 @@
 {{- $page := .Page }}
 {{- range sort .Modules "path" }}
+  {{- if .hide }}
+    {{- continue }}
+  {{- end }}
   {{- $repo := default .path $.Repo }}
   <tr>
     <td>
@@ -20,9 +23,11 @@
         {{- $prefix = substr (replace .path $repo ``) 1 | printf "%s/" }}
       {{- end }}
       {{- $url := printf "https://api.razonyang.com/v1/github/tag/%s?prefix=%s" (replace $repo "github.com/" "") $prefix }}
-      <img
-        src="https://img.shields.io/badge/dynamic/json?color=blue&label=tag&query=name&url={{ $url | urlquery }}"
-        alt="Latest version" />
+      <a href="https://{{ $repo }}/tags" target="_blank" rel="external">
+        <img
+          src="https://img.shields.io/badge/dynamic/json?color=blue&label=tag&query=name&url={{ $url | urlquery }}"
+          alt="Latest version" />
+      </a>
     </td>
     <td>
       <a

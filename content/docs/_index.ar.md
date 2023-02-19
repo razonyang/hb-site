@@ -2,6 +2,7 @@
 title: Docs
 menu:
   main:
+    name: Docs
     weight: 2
     params:
       icon: 
