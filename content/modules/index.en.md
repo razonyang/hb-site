@@ -1,15 +1,11 @@
 ---
 layout: landing
 title: Modules
-draft: true
+draft: false
 menus:
   main:
     identifier: modules
 ---
-
-## Hugo Modules
-
-{{< modules "hugo" >}}
 
 ## HB Modules
 

@@ -1,38 +1,16 @@
-{{- with index site.Data.modules (.Get 0) }}
+{{- $page := . }}
+{{- with site.Data.modules }}
   <table>
     <thead>
       <tr>
         <th>Name</th>
         <th>Module Path</th>
-        <th>Latest Version</th>
+        <th>Version</th>
         <th>Stats</th>
       </tr>
     </thead>
     <tbody>
-      {{- range sort . "name" }}
-        {{- $repo := default .path .repo }}
-        <tr>
-          <td>
-            <a href="https://{{ $repo }}" target="_blank" rel="external">{{ .name }}</a>
-          </td>
-          <td><code>{{ .path }}</code></td>
-          <td>
-            {{- $prefix := "" }}
-            {{- if .repo }}
-              {{- $prefix = substr (replace .path .repo ``) 1 | printf "%s/" }}
-            {{- end }}
-            {{- $url := printf "https://api.razonyang.com/v1/github/tag/%s?prefix=%s" (replace $repo "github.com/" "") $prefix }}
-            <img
-              src="https://img.shields.io/badge/dynamic/json?color=blue&label=tag&query=name&url={{ $url | urlquery }}"
-              alt="Latest version" />
-          </td>
-          <td>
-            <a href="https://{{ $repo }}/stargazers" target="_blank" rel="external">
-              <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ replace $repo `github.com/` `` }}">
-            </a>
-          </td>
-        </tr>
-      {{- end }}
+      {{ partial "modules" (dict "Modules" . "Page" $page) }}
     </tbody>
   </table>
 {{- end -}}
