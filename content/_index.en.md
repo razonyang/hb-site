@@ -18,18 +18,40 @@ menu:
 
 {{< hero >}}
 {{< hero-img "images/logo.png" >}}
-{{< hero-heading "Build fast, responsive sites with HB" >}}
+{{< hero-heading "Build fast, responsive sites with Hugo Bootstrap Framework" >}}
 {{< hero-lead >}}
-Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Bootstrap Framework (HB). Focusing on user experience, performance and SEO.
+Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Bootstrap Framework (HB).
 {{< /hero-lead >}}
+
 <div class="mt-3 d-flex align-items-center justify-content-center flex-wrap">
-  <a class="btn btn-lg btn-primary fw-semibold mb-2" href="{{< relref `docs` >}}">
+  <a class="btn btn-lg btn-primary fw-semibold mb-2 py-3" href="{{< relref `docs` >}}">
     {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Read the docs
   </a>
-  <a class="ms-2 mb-2" href="https://github.com/razonyang/hb/stargazers" target="_blank" rel="external">
-    <img height="36" src="https://img.shields.io/github/stars/razonyang/hugo-mod-icons?style=social" />
+  <a class="btn btn-lg btn-outline-success fw-semibold mb-2 py-3 ms-3" href="{{< relref `docs/modules` >}}">
+    {{< icons/icon vendor=bootstrap name=boxes className="me-1" >}} Modules
   </a>
 </div>
 {{< /hero >}}
 
-{{< icon-grid "features" >}}
+{{< sponsors >}}
+
+<h2 class="text-center mb-0">Features</h2>
+
+{{< bootstrap/icon-grid key="en.features" >}}
+
+<div class="row">
+  <div class="col col-md-8">
+    {{< bootstrap/toggle name="home-toggle" >}}
+
+      {{< bootstrap/toggle-item name="Recent" >}}
+      {{< /bootstrap/toggle-item >}}
+
+      {{< bootstrap/toggle-item name="Featured" >}}
+      {{< /bootstrap/toggle-item >}}
+
+    {{< /bootstrap/toggle >}}
+  </div>
+  <div class="col col-md-4">
+    {{< taxonomies-toggle limit=20 style=tabs >}}
+  </div>
+</div>

@@ -1,0 +1,9 @@
+[digitalocean]
+url = "https://www.digitalocean.com/?refcode=986ac2ef795b&utm_campaign=Referral_Invite&utm_medium=opensource&utm_source=Hugo-Bootstrap-Framework(HB)"
+alt = "Supported by DigitalOcean"
+img = "https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg"
+
+[ko-fi]
+url = "https://ko-fi.com/Z8Z8HS9T7"
+img = "https://storage.ko-fi.com/cdn/kofi3.png?v=3"
+alt = "Buy Me a Coffee"

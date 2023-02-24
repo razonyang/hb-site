@@ -1,0 +1,8 @@
+<h2 class="mb-3 text-center">{{ i18n "sponsors" }}</h2>
+<div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 mb-5 my-3 justify-content-center">
+  {{- range site.Data.sponsors }}
+    <a class="col my-2 d-flex align-items-center" href="{{ .url }}" target="_blank" rel="external">
+      <img class="img-fluid" src="{{ .img }}" alt="{{ .alt }}" />
+    </a>
+  {{- end }}
+</div>

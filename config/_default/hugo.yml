@@ -21,7 +21,7 @@ module:
     - path: github.com/razonyang/hb/modules/scrollbar
     - path: github.com/razonyang/hb/modules/bigger-picture
     - path: github.com/razonyang/hb/modules/noscript
-    - path: github.com/razonyang/hb/modules/background-image
+    # - path: github.com/razonyang/hb/modules/background-image
     # syntax highlighting
     - path: github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox
     # seo modules

@@ -1,10 +1,10 @@
 main:
-  - name: Support
+  - name: 支持
     identifier: support
     weight: 100
     url: https://github.com/razonyang/hb
     params:
-      header: The HB support community.
+      header: HB 支持社区。
       icon:
         vendor: font-awesome-solid
         name: headset
@@ -17,9 +17,9 @@ main:
       icon:
         vendor: fab
         name: github
-      description: The code repository.
+      description: 代码仓库。
 
-  - name: Discussion
+  - name: 讨论
     parent: support
     url: https://github.com/razonyang/hb/discussions
     weight: 2
@@ -28,9 +28,9 @@ main:
         vendor: font-awesome-regular
         name: comments
         color: green
-      description: Ask questions and share your ideas.
+      description: 提问题和分享你的想法。
 
-  - name: Bug Report
+  - name: Bug 反馈
     parent: support
     url: https://github.com/razonyang/hb/issues/new
     weight: 3
@@ -39,9 +39,9 @@ main:
         vendor: font-awesome-solid
         name: bug
         color: red
-      description: Tell us about a bug or issue.
+      description: 向我们反馈一个错误或问题。
 
-  - name: Feature Request
+  - name: 功能提议
     parent: support
     url: https://github.com/razonyang/hb/issues/new
     weight: 4
@@ -50,7 +50,7 @@ main:
         vendor: font-awesome-regular
         name: lightbulb
         color: orange
-      description: Suggest new or updated features.
+      description: 建议新的或需要改进的功能。
 
   - name: Sponsor
     identifier: sponsor
@@ -64,7 +64,7 @@ main:
     parent: support
     url: https://paypal.me/razonyang
     params:
-      description: Sponsor via PayPal.
+      description: 通过 PayPal 赞助我们。
       icon:
         vendor: simple-icons
         name: paypal
@@ -74,13 +74,13 @@ main:
     parent: support
     url: https://ko-fi.com/razonyang
     params:
-      description: Sponsor via Ko-fi.
+      description: 通过 Ko-fi 赞助我们。
       icon:
         vendor: simple-icons
         name: kofi
 
 footer:
-  - name: Modules
+  - name: 模块
     identifier: modules
     weight: 10
     params:
@@ -184,7 +184,7 @@ footer:
         vendor: bootstrap
         name: file-earmark-richtext
 
-  - name: Support
+  - name: 支持
     identifier: support
     weight: 40
     url: https://github.com/razonyang/hb
@@ -201,7 +201,7 @@ footer:
       icon:
         vendor: font-awesome-brands
         name: github
-  - name: Discussion
+  - name: 讨论
     parent: support
     url: https://github.com/razonyang/hb/discussions
     weight: 42
@@ -210,7 +210,7 @@ footer:
         vendor: far
         name: comments
         color: green
-  - name: Bug Report
+  - name: Bug 反馈
     parent: support
     url: https://github.com/razonyang/hb/issues/new
     weight: 43
@@ -220,7 +220,7 @@ footer:
         name: bug
         color: red
 
-  - name: Feature Request
+  - name: 功能提议
     parent: support
     url: https://github.com/razonyang/hb/issues/new
     weight: 44
@@ -234,7 +234,6 @@ footer:
     parent: support
     url: https://paypal.me/razonyang
     params:
-      description: Sponsor via PayPal.
       icon:
         vendor: simple-icons
         name: paypal
