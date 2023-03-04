@@ -3,6 +3,7 @@ title: Blog Home Page
 date: 2023-02-26T18:24:31+08:00
 layout: landing
 draft: false
+summary: Blog home page example.
 ---
 
 <div class="row">
@@ -10,7 +11,7 @@ draft: false
     {{< hb/carousel params.featured=true >}}
   </div>
   <div class="col-12 col-lg-6">
-    {{< hb/blog/posts limit=1 cols="row-cols-1" >}}
+    {{< hb/blog/posts params.pinned=true limit=2 cols="row-cols-2" >}}
   </div>
 </div>
 
@@ -29,6 +30,6 @@ draft: false
     {{< /bootstrap/toggle >}}
   </div>
   <div class="col-12 col-lg-4">
-    {{< taxonomies-toggle limit=20 style=tabs >}}
+    {{< hb/blog/taxonomies limit=20 >}}
   </div>
 </div>

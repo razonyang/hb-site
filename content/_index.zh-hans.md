@@ -34,23 +34,3 @@ menu:
 <h2 class="text-center mb-0">功能特性</h2>
 
 {{< bootstrap/icon-grid "zh-hans.features" >}}
-
-<div class="row">
-  <div class="col-12 col-lg-8">
-    {{< bootstrap/toggle name="home-toggle" >}}
-
-      {{< bootstrap/toggle-item name="最新文章">}}
-        {{< hb/blog/posts type=blog sorting="Date desc" limit=6 cols="row-cols-1 row-cols-xl-2" >}}
-      {{< /bootstrap/toggle-item >}}
-
-      {{< bootstrap/toggle-item name="最新文档" >}}
-        {{< hb/blog/posts type=docs sorting="Date desc" limit=6 cols="row-cols-1 row-cols-xl-2" >}}
-      {{< /bootstrap/toggle-item >}}
-
-    {{< /bootstrap/toggle >}}
-  </div>
-  <div class="col-12 col-lg-4">
-    {{< taxonomies-toggle limit=20 style=tabs >}}
-  </div>
-</div>
-

@@ -13,8 +13,8 @@ github.com/razonyang/hb/modules/base v0.4.0 h1:zkgHLltX3Ax4EwEfMgH3eQgDMH8TmSPPM
 github.com/razonyang/hb/modules/base v0.4.0/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
 github.com/razonyang/hb/modules/bigger-picture v0.1.1 h1:w/E2ojgEvSWPEDCTHc3H9eaYYTDEBlLoDqFNXBodfTw=
 github.com/razonyang/hb/modules/bigger-picture v0.1.1/go.mod h1:+ETYb4q6hTIFrkk5XfT4UpsuNHn5vD+mIJOHsDEqN5o=
-github.com/razonyang/hb/modules/blog v0.5.0 h1:0yghtA7qLOx3csjvFM1A4N/xVMnmtL170x2B/uk83iY=
-github.com/razonyang/hb/modules/blog v0.5.0/go.mod h1:i5ZF7qKABapKnUHO/hOOGY6kJHjchtNf6+zBLgKZAZ4=
+github.com/razonyang/hb/modules/blog v0.6.0 h1:9RapuP6fb8SxtFw1Wxhc/zaOcbteRiokHZCwg4sw0BM=
+github.com/razonyang/hb/modules/blog v0.6.0/go.mod h1:i5ZF7qKABapKnUHO/hOOGY6kJHjchtNf6+zBLgKZAZ4=
 github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 h1:/M6dE7Ua1BABtcNsDk7jLrbn4TRNiY11UzWLr47qmqY=
 github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0/go.mod h1:U/HttkZXIaJCwR3WZU4i4Breh0fy1LoV8EVNnE4qSx0=
 github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.1 h1:+TgCUoxUjAEm5bSPb9etMDcfx/mnp65WixZDS3v6H8A=

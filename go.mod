@@ -22,7 +22,7 @@ require (
 	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
 	github.com/razonyang/hb/modules/base v0.4.0 // indirect
 	github.com/razonyang/hb/modules/bigger-picture v0.1.1 // indirect
-	github.com/razonyang/hb/modules/blog v0.5.0 // indirect
+	github.com/razonyang/hb/modules/blog v0.6.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.1 // indirect
 	github.com/razonyang/hb/modules/blog/modules/giscus v0.1.0 // indirect
