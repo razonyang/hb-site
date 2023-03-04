@@ -15,6 +15,8 @@ github.com/razonyang/hb/modules/bigger-picture v0.1.1 h1:w/E2ojgEvSWPEDCTHc3H9ea
 github.com/razonyang/hb/modules/bigger-picture v0.1.1/go.mod h1:+ETYb4q6hTIFrkk5XfT4UpsuNHn5vD+mIJOHsDEqN5o=
 github.com/razonyang/hb/modules/blog v0.6.0 h1:9RapuP6fb8SxtFw1Wxhc/zaOcbteRiokHZCwg4sw0BM=
 github.com/razonyang/hb/modules/blog v0.6.0/go.mod h1:i5ZF7qKABapKnUHO/hOOGY6kJHjchtNf6+zBLgKZAZ4=
+github.com/razonyang/hb/modules/blog v0.6.1 h1:6eB8cRbY2JLFbHM8AWEX6T6qVLoydwuXYyO63itL4sw=
+github.com/razonyang/hb/modules/blog v0.6.1/go.mod h1:i5ZF7qKABapKnUHO/hOOGY6kJHjchtNf6+zBLgKZAZ4=
 github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 h1:/M6dE7Ua1BABtcNsDk7jLrbn4TRNiY11UzWLr47qmqY=
 github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0/go.mod h1:U/HttkZXIaJCwR3WZU4i4Breh0fy1LoV8EVNnE4qSx0=
 github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.1 h1:+TgCUoxUjAEm5bSPb9etMDcfx/mnp65WixZDS3v6H8A=
@@ -33,6 +35,8 @@ github.com/razonyang/hb/modules/breadcrumb v0.1.2 h1:c0byDvofHgruxJZLpLcm1TpttMr
 github.com/razonyang/hb/modules/breadcrumb v0.1.2/go.mod h1:+7kXjvL1O7cRpCdz9oVxEKfes/N41uvRAC6eh5OpqV8=
 github.com/razonyang/hb/modules/carousel v0.1.1 h1:+MljvZiTL5XDKK50zpzZMFUxCE/IiIZQnBgrTtzQsyo=
 github.com/razonyang/hb/modules/carousel v0.1.1/go.mod h1:XrkUuMxnsIy/A1XkMPsAKytqnHKDsW4QhC9yX/sQMXo=
+github.com/razonyang/hb/modules/carousel v0.1.2 h1:+ebt7Rfp480yIHGqUyDSARb9lvSj8ZVyFzuY9IfdTlI=
+github.com/razonyang/hb/modules/carousel v0.1.2/go.mod h1:XrkUuMxnsIy/A1XkMPsAKytqnHKDsW4QhC9yX/sQMXo=
 github.com/razonyang/hb/modules/code-block-panel v0.1.1 h1:BtzFwYBTXgD4j9SJFzPqf+INCfMb3lwKwO2YZMnF0Qo=
 github.com/razonyang/hb/modules/code-block-panel v0.1.1/go.mod h1:0pd73yUEubuHSja8iJri2YmL+AkPsBD8QnMYeF9jyFY=
 github.com/razonyang/hb/modules/docs v0.2.0 h1:6MvPNLcAba48rSPKxextiNLwwGf49D5FZ+ttmPONwEg=
@@ -77,6 +81,8 @@ github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.1.0 h1:XLq
 github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.1.0/go.mod h1:rCXOFsQA+sCy7njKML/LNAwLl86uvoTugqLX1oqSPlo=
 github.com/razonyang/hugo-mod-bootstrap v0.5.1 h1:VPq+PcLi6JEX5NWa75wn+Me+OnSf7jEMMsk0GiGnwgM=
 github.com/razonyang/hugo-mod-bootstrap v0.5.1/go.mod h1:hRonTOd2IvGCfK43V1BrSG9lobfAn9ASSt5EtN1o2Ws=
+github.com/razonyang/hugo-mod-bootstrap v0.6.4 h1:6xLMj+1b84tUscaOcpx2sSdybzFUSMkRiaHCg1yHOoQ=
+github.com/razonyang/hugo-mod-bootstrap v0.6.4/go.mod h1:hRonTOd2IvGCfK43V1BrSG9lobfAn9ASSt5EtN1o2Ws=
 github.com/razonyang/hugo-mod-code-block-panel v0.1.2 h1:LPwtUtR6pAUfLkMD0/IYT0Dh8AnlV4nFIl7BnR0t9dk=
 github.com/razonyang/hugo-mod-code-block-panel v0.1.2/go.mod h1:Mwh9GEXbT4OlzrTLX+orerma1PkUbVg9bjke8N7tvVg=
 github.com/razonyang/hugo-mod-fuse-js v0.1.0 h1:IPWcKaqhpwlP8ziPiSGCrde6oSCswLfJWhXSCvjcOlk=
@@ -119,3 +125,4 @@ github.com/razonyang/hugo-mod-workbox v0.1.0 h1:LRmNrw2Bi5Z8Q/ZtdEQngQwbqwtXj34e
 github.com/razonyang/hugo-mod-workbox v0.1.0/go.mod h1:xHtfVCzHzfijepXdYVH3wejwodFg8yDOmFOrpEogEkk=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
+github.com/twbs/bootstrap v5.2.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
