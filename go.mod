@@ -53,7 +53,7 @@ require (
 	github.com/razonyang/hb/modules/scrollbar v0.1.0 // indirect
 	github.com/razonyang/hb/modules/socials v0.3.0 // indirect
 	github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
-	github.com/razonyang/hugo-mod-bootstrap v0.5.1 // indirect
+	github.com/razonyang/hugo-mod-bootstrap v0.6.4 // indirect
 	github.com/razonyang/hugo-mod-code-block-panel v0.1.2 // indirect
 	github.com/razonyang/hugo-mod-fuse-js v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-giscus v1.3.1 // indirect
