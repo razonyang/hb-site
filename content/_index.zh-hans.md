@@ -21,10 +21,10 @@ menu:
 
 <div class="mt-3 d-flex align-items-center justify-content-center flex-wrap">
   <a class="btn btn-lg btn-primary fw-semibold mb-2 py-3" href="{{< relref `docs` >}}">
-    {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Read the docs
+    {{< icons/icon vendor=bootstrap name=book className="me-1" >}} 阅读文档
   </a>
   <a class="btn btn-lg btn-outline-success fw-semibold mb-2 py-3 ms-3" href="{{< relref `docs/modules` >}}">
-    {{< icons/icon vendor=bootstrap name=boxes className="me-1" >}} Modules
+    {{< icons/icon vendor=bootstrap name=boxes className="me-1" >}} 模块
   </a>
 </div>
 {{< /hero >}}
@@ -34,3 +34,23 @@ menu:
 <h2 class="text-center mb-0">功能特性</h2>
 
 {{< bootstrap/icon-grid "zh-hans.features" >}}
+
+<div class="row">
+  <div class="col-12 col-lg-8">
+    {{< bootstrap/toggle name="home-toggle" >}}
+
+      {{< bootstrap/toggle-item name="最新文章">}}
+        {{< hb/blog/posts type=blog sorting="Date desc" limit=6 cols="row-cols-1 row-cols-xl-2" >}}
+      {{< /bootstrap/toggle-item >}}
+
+      {{< bootstrap/toggle-item name="最新文档" >}}
+        {{< hb/blog/posts type=docs sorting="Date desc" limit=6 cols="row-cols-1 row-cols-xl-2" >}}
+      {{< /bootstrap/toggle-item >}}
+
+    {{< /bootstrap/toggle >}}
+  </div>
+  <div class="col-12 col-lg-4">
+    {{< taxonomies-toggle limit=20 style=tabs >}}
+  </div>
+</div>
+

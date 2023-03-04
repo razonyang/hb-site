@@ -1,7 +1,6 @@
 ---
 title: Examples
-type: blog
-draft: true
+draft: false
 menu:
   main:
 ---

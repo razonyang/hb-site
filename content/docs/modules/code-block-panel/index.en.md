@@ -8,6 +8,7 @@ categories:
   - Module
 tags:
   - Code Block Panel
+featured: true
 ---
 
 The code block panel provides abilities to expand code, copy code, wrap code and toggle code line numbers.

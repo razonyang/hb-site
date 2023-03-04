@@ -11,6 +11,7 @@ tags:
   - Picture
   - Bigger Picture
 images:
+featured: true
 ---
 
 When clicking any non-linkable image, the bigger picture module shows the original size of the the clicked image.

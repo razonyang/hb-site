@@ -4,21 +4,25 @@ go 1.18
 
 // replace github.com/razonyang/hb => ../hb
 
+// replace github.com/razonyang/hb/modules/blog => ../hb/modules/blog
+
 // replace github.com/razonyang/hb/modules/base => ../hb/modules/base
 
 // replace github.com/razonyang/hugo-mod-bootstrap => ../hugo-mod-bootstrap
 
-// replace github.com/razonyang/hb/modules/docs => ../hb/modules/docs
+// replace github.com/razonyang/hb/modules/carousel => ../hb/modules/carousel
+
+// replace github.com/razonyang/hb/modules/scrollbar => ../hb/modules/scrollbar
 
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
-	github.com/razonyang/hb v0.7.0 // indirect
+	github.com/razonyang/hb v0.9.0 // indirect
 	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
 	github.com/razonyang/hb/modules/base v0.4.0 // indirect
 	github.com/razonyang/hb/modules/bigger-picture v0.1.1 // indirect
-	github.com/razonyang/hb/modules/blog v0.3.2 // indirect
+	github.com/razonyang/hb/modules/blog v0.5.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.1 // indirect
 	github.com/razonyang/hb/modules/blog/modules/giscus v0.1.0 // indirect
@@ -27,6 +31,7 @@ require (
 	github.com/razonyang/hb/modules/blog/modules/related-posts v0.1.0 // indirect
 	github.com/razonyang/hb/modules/bootstrap v0.1.0 // indirect
 	github.com/razonyang/hb/modules/breadcrumb v0.1.2 // indirect
+	github.com/razonyang/hb/modules/carousel v0.1.1 // indirect
 	github.com/razonyang/hb/modules/code-block-panel v0.1.1 // indirect
 	github.com/razonyang/hb/modules/docs v0.2.0 // indirect
 	github.com/razonyang/hb/modules/docs/modules/breadcrumb v0.1.0 // indirect

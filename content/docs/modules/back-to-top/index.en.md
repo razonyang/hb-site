@@ -6,6 +6,7 @@ categories = ["Module"]
 tags = ["Back to top", "Return to top"]
 series = ["Docs"]
 images = []
+featured = true
 +++
 
 AKA return to top, a button to back to top.

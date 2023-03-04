@@ -2,10 +2,6 @@
 title: "HB - Hugo Bootstrap Framework"
 date: 2022-09-24T18:24:31+08:00
 draft: false
-tags:
-  - A
-  - B
-  - C
 menu:
   main:
     name: Home
@@ -38,20 +34,3 @@ Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Boo
 <h2 class="text-center mb-0">Features</h2>
 
 {{< bootstrap/icon-grid key="en.features" >}}
-
-<div class="row">
-  <div class="col col-md-8">
-    {{< bootstrap/toggle name="home-toggle" >}}
-
-      {{< bootstrap/toggle-item name="Recent" >}}
-      {{< /bootstrap/toggle-item >}}
-
-      {{< bootstrap/toggle-item name="Featured" >}}
-      {{< /bootstrap/toggle-item >}}
-
-    {{< /bootstrap/toggle >}}
-  </div>
-  <div class="col col-md-4">
-    {{< taxonomies-toggle limit=20 style=tabs >}}
-  </div>
-</div>

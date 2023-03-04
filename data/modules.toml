@@ -381,6 +381,10 @@ ref = "docs/modules/syntax-highlighting"
 name = "HB Bootstrap"
 path = "github.com/razonyang/hb/modules/bootstrap"
 
+# [[hb.children]]
+# name = "HB Carousel"
+# path = "github.com/razonyang/hb/modules/carousel"
+
 [[hb.children]]
 name = "HB PWA"
 path = "github.com/razonyang/hb/modules/pwa"
