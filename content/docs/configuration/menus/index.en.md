@@ -26,8 +26,6 @@ This article describes the properties of the menu entry and how to config the me
 
 ## Menu Entry Properties
 
-Before setting up the menu, let's understand the properties of each menu entry.
-
 | Property     |  Type  | Description                                                  |
 | :----------- | :----: | :----------------------------------------------------------- |
 | `name`       | string | The name of menu.                                            |

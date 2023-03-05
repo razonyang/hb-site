@@ -10,7 +10,7 @@ go 1.18
 
 // replace github.com/razonyang/hugo-mod-bootstrap => ../hugo-mod-bootstrap
 
-// replace github.com/razonyang/hb/modules/carousel => ../hb/modules/carousel
+replace github.com/razonyang/hb/modules/carousel => ../hb/modules/carousel
 
 // replace github.com/razonyang/hb/modules/scrollbar => ../hb/modules/scrollbar
 
@@ -22,7 +22,7 @@ require (
 	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
 	github.com/razonyang/hb/modules/base v0.4.0 // indirect
 	github.com/razonyang/hb/modules/bigger-picture v0.1.1 // indirect
-	github.com/razonyang/hb/modules/blog v0.6.1 // indirect
+	github.com/razonyang/hb/modules/blog v0.7.1 // indirect
 	github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.1 // indirect
 	github.com/razonyang/hb/modules/blog/modules/giscus v0.1.0 // indirect
@@ -63,7 +63,7 @@ require (
 	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0 // indirect
-	github.com/razonyang/hugo-mod-pwa v0.1.1 // indirect
+	github.com/razonyang/hugo-mod-pwa v0.1.3 // indirect
 	github.com/razonyang/hugo-mod-search v0.14.1 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/alternatives v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 // indirect

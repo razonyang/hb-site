@@ -17,17 +17,7 @@ summary: Blog home page example.
 
 <div class="row">
   <div class="col-12 col-lg-8">
-    {{< bootstrap/toggle name="home-toggle" style=pills >}}
-
-      {{< bootstrap/toggle-item name="Recent Posts" >}}
-        {{< hb/blog/posts type=blog sorting="Date desc" limit=6 cols="row-cols-1 row-cols-xl-2" >}}
-      {{< /bootstrap/toggle-item >}}
-
-      {{< bootstrap/toggle-item name="Recent Docs" >}}
-        {{< hb/blog/posts type=docs sorting="Date desc" limit=6 cols="row-cols-1 row-cols-xl-2" >}}
-      {{< /bootstrap/toggle-item >}}
-
-    {{< /bootstrap/toggle >}}
+    {{< hb/blog/posts sorting="Date desc" limit=12 cols="row-cols-1 row-cols-xl-2" >}}
   </div>
   <div class="col-12 col-lg-4">
     {{< hb/blog/taxonomies limit=20 >}}

@@ -22,8 +22,6 @@ menu:
 
 This article will try to briefly introduce Hugo's configuration structure so that you can better understand the configuration in the documentation, even if you are new to Hugo.
 
-Hugo supports both single configuration file and configuration directory, but before that, let's understand the formats and names of the configuration.
-
 <!--more-->
 
 ## Configuration Formats
