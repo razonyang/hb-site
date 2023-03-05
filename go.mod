@@ -10,8 +10,6 @@ go 1.18
 
 // replace github.com/razonyang/hugo-mod-bootstrap => ../hugo-mod-bootstrap
 
-replace github.com/razonyang/hb/modules/carousel => ../hb/modules/carousel
-
 // replace github.com/razonyang/hb/modules/scrollbar => ../hb/modules/scrollbar
 
 require (
