@@ -27,11 +27,11 @@ RUN npm install autoprefixer @fullhuman/postcss-purgecss rtlcss
 RUN hugo --minify --gc --enableGitInfo
 
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
-# RUN cp ./public/en/404.html ./public/404.html
+RUN cp ./public/en/404.html ./public/404.html
 
 ###############
 # Final Stage #
 ###############
 FROM nginx
-COPY --from=builder /src/public /app
+COPY --from=builder /src/public /site
 COPY deploy/nginx/default.conf /etc/nginx/conf.d/default.conf
