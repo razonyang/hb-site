@@ -1,9 +1,14 @@
 <div class="row">
   <ul class="nav col justify-content-center">
     {{- range site.Data.sponsors }}
-      <a class="nav-link" href="{{ .url }}" target="_blank" rel="external">
-        <img class="img-fluid" src="{{ .img }}" alt="{{ .alt }}" style="height: 42px" />
-      </a>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ .url }}" target="_blank" rel="external">
+          <img
+            class="sponsor-img img-fluid"
+            src="{{ .img }}"
+            alt="{{ .alt }}" />
+        </a>
+      </li>
     {{- end }}
   </ul>
 </div>
