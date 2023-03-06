@@ -4,7 +4,7 @@ go 1.18
 
 // replace github.com/razonyang/hb => ../hb
 
-// replace github.com/razonyang/hb/modules/blog => ../hb/modules/blog
+// replace github.com/razonyang/hb/modules/header => ../hb/modules/header
 
 // replace github.com/razonyang/hb/modules/base => ../hb/modules/base
 
@@ -39,7 +39,7 @@ require (
 	github.com/razonyang/hb/modules/docs/modules/heading-sign v0.1.0 // indirect
 	github.com/razonyang/hb/modules/footer v0.2.3 // indirect
 	github.com/razonyang/hb/modules/footer/modules/socials v0.1.2 // indirect
-	github.com/razonyang/hb/modules/header v0.1.8 // indirect
+	github.com/razonyang/hb/modules/header v0.1.9 // indirect
 	github.com/razonyang/hb/modules/header/modules/language-picker v0.1.3 // indirect
 	github.com/razonyang/hb/modules/header/modules/search v0.1.3 // indirect
 	github.com/razonyang/hb/modules/header/modules/socials v0.1.0 // indirect
