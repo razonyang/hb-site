@@ -1,4 +1,4 @@
-name: ci
+name: CI & CD
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - 'main'
 
 jobs:
-  docker:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,3 +32,23 @@ jobs:
           push: true
           tags: ghcr.io/razonyang/hb-site:latest,ghcr.io/razonyang/hb-site:${{ github.sha }}
 
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: Azure/k8s-set-context@v1
+        with:
+        kubeconfig: ${{ secrets.KUBE_CONFIG }}
+
+      - uses: azure/k8s-bake@v2.2
+        with:
+          renderEngine: 'helm'
+          helmChart: './deploy/'
+          helm-version: 'latest'
+        id: bake
+
+      - uses: Azure/k8s-deploy@v1
+        with:
+          manifests: ${{ steps.bake.outputs.manifestsBundle }}
+          images: |
+              ghcr.io/razonyang/hb-site:${{ github.sha }}
