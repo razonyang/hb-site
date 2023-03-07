@@ -42,6 +42,7 @@ jobs:
           renderEngine: 'helm'
           helmChart: './deploy/'
           helm-version: 'latest'
+          releaseName: 'hb-site'
         id: bake
 
       - uses: Azure/k8s-deploy@v1

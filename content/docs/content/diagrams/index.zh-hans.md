@@ -1,22 +1,22 @@
 +++
-title = "Diagrams"
+title = "图表"
 date = 2023-01-22T15:20:32+08:00
 tags = ["Mermaid", "GoAT"]
-categories = ["Diagrams"]
-series = ["Docs"]
+categories = ["图表"]
+series = ["文档"]
 +++
 
-HB supports GoAT and Mermaid for rendering diagrams.
+HB 支持 GoAT 和 Mermaid 来渲染图表。
 
 <!--more-->
 
 ## Mermaid
 
-The Mermaid is supported by the [mermaid]({{< ref "docs/modules/mermaid" >}}) module.
+Mermaid 由 [mermaid]({{< ref "docs/modules/mermaid" >}}) 模块提供支持。
 
 ## GoAT
 
-Hugo supports GoAT natively. More syntaxes and examples can be found on https://github.com/bep/goat.
+Hugo 原生支持 GoAT，更多的语法和例子请参阅 https://github.com/bep/goat。
 
 ````markdown
 ```goat
