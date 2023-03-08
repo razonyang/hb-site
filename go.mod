@@ -8,7 +8,7 @@ go 1.18
 
 // replace github.com/razonyang/hb/modules/base => ../hb/modules/base
 
-replace github.com/razonyang/hugo-mod-pwa => ../hugo-mod-pwa
+// replace github.com/razonyang/hugo-mod-pwa => ../hugo-mod-pwa
 
 // replace github.com/razonyang/hb/modules/scrollbar => ../hb/modules/scrollbar
 
