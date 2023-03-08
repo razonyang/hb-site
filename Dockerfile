@@ -24,7 +24,7 @@ ENV NPM_CONFIG_REGISTRY=${NPM_CONFIG_REGISTRY}
 RUN npm install autoprefixer @fullhuman/postcss-purgecss rtlcss
 
 # Build site
-RUN hugo --minify --gc --enableGitInfo -e development -b https://hb.razonyang.com
+RUN hugo --minify --gc --enableGitInfo
 
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
 RUN cp ./public/en/404.html ./public/404.html
