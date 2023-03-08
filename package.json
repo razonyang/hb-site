@@ -29,7 +29,7 @@
     "url": "git+https://github.com/razonyang/hb-site.git"
   },
   "scripts": {
-    "dev": "hugo server -p 13131 --gc --disableFastRender",
+    "dev": "hugo server -p 13131 --gc --disableFastRender --buildDrafts",
     "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk --disableFastRender -b http://localhost:13132 -p 13132"
   },
   "dependencies": {

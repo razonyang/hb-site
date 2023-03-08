@@ -1,8 +1,7 @@
 ---
 title: "Archetypes"
 date: 2023-02-16T13:44:47+08:00
-draft: true
-nav_weight: 1
+nav_weight: 2
 series:
   - Docs
 categories:

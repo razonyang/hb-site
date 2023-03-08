@@ -92,3 +92,7 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
+
