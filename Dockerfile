@@ -9,7 +9,7 @@ COPY . /src
 ENV HUGO_ENV=production
 
 # Base URL
-ARG HUGO_BASEURL=
+ARG HUGO_BASEURL=/
 ENV HUGO_BASEURL=${HUGO_BASEURL}
 
 # Module Proxy
