@@ -1,4 +1,5 @@
 pwa:
+  debug: true
   caches:
     font:
       strategy: network-first

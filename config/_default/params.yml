@@ -54,7 +54,6 @@ utterances:
   repo: razonyang/hb-site
 
 pwa:
-  debug: true
   precaches:
   manifest:
     theme_color: '#712cf9'
