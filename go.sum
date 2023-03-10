@@ -97,6 +97,8 @@ github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0 h1:HGndQHcg1jLie
 github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0/go.mod h1:E3Ula/JO4CCZXLlhISwDT71bG/GOLowYhsCEpFvQs04=
 github.com/razonyang/hugo-mod-pwa v0.2.2 h1:+e0vR5p0+RgCuQyi2INS3anVW+DQna7JFZYxJXxQBlI=
 github.com/razonyang/hugo-mod-pwa v0.2.2/go.mod h1:MKyqFzBSokuaLsJ52Um4BXF0at26I6ZAfLq3KZom2sE=
+github.com/razonyang/hugo-mod-pwa v0.3.1 h1:KIJw/cyPJGVOeunF8TOJfttefdDoV6ir8h1pLgZu3ow=
+github.com/razonyang/hugo-mod-pwa v0.3.1/go.mod h1:MKyqFzBSokuaLsJ52Um4BXF0at26I6ZAfLq3KZom2sE=
 github.com/razonyang/hugo-mod-search v0.14.1 h1:iSnlpm1sHVWf86dLG2FSTlNNtejTDbtsyk1ljQS/7XM=
 github.com/razonyang/hugo-mod-search v0.14.1/go.mod h1:rlFETVHvlAXhq4Q/n+0CLttmhz72XdoY2IbOI5p8Bxg=
 github.com/razonyang/hugo-mod-seo/modules/alternatives v0.1.0 h1:nbAflzsav8HJAu9pntSJsf3/EUxSREDoEQFGlvZdxyI=
