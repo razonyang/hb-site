@@ -95,8 +95,8 @@ github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.3.0 h1:c8V8+HWubdohV
 github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.3.0/go.mod h1:cXR6Bt82Q4OazSuDMKS7REo6w3DwjpFQE4DIrVQ9cfA=
 github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0 h1:HGndQHcg1jLieJPNLayMQ/QsEMdTemnL2spg4ecTy/c=
 github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0/go.mod h1:E3Ula/JO4CCZXLlhISwDT71bG/GOLowYhsCEpFvQs04=
-github.com/razonyang/hugo-mod-images v0.1.0 h1:mL+hJzHLzUIihP7VLq0SVQNKawl0V+ABLhtJPbDndzU=
-github.com/razonyang/hugo-mod-images v0.1.0/go.mod h1:Qj7zhXYpVCIjk/ClRQ23vvo4daZnARyFMC24lm0q3eM=
+github.com/razonyang/hugo-mod-images v0.1.1 h1:c7AMnvAQ/jhvG9j0T6+j3Xg+T6PbyGXPJZ4wrdFU+oI=
+github.com/razonyang/hugo-mod-images v0.1.1/go.mod h1:Qj7zhXYpVCIjk/ClRQ23vvo4daZnARyFMC24lm0q3eM=
 github.com/razonyang/hugo-mod-pwa v0.3.1 h1:KIJw/cyPJGVOeunF8TOJfttefdDoV6ir8h1pLgZu3ow=
 github.com/razonyang/hugo-mod-pwa v0.3.1/go.mod h1:MKyqFzBSokuaLsJ52Um4BXF0at26I6ZAfLq3KZom2sE=
 github.com/razonyang/hugo-mod-search v0.14.1 h1:iSnlpm1sHVWf86dLG2FSTlNNtejTDbtsyk1ljQS/7XM=

@@ -59,7 +59,7 @@ require (
 	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/font-awesome v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0 // indirect
-	github.com/razonyang/hugo-mod-images v0.1.0 // indirect
+	github.com/razonyang/hugo-mod-images v0.1.1 // indirect
 	github.com/razonyang/hugo-mod-pwa v0.3.1 // indirect
 	github.com/razonyang/hugo-mod-search v0.14.1 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/alternatives v0.1.0 // indirect
