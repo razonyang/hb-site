@@ -4,9 +4,9 @@ go 1.18
 
 // replace github.com/razonyang/hb => ../hb
 
-// replace github.com/razonyang/hb/modules/bigger-picture => ../hb/modules/bigger-picture
+// replace github.com/razonyang/hb/modules/meta/standard => ../hb/modules/meta/standard
 
-// replace github.com/razonyang/hb/modules/blog/modules/featured-image => ../hb/modules/blog/modules/featured-image
+// replace github.com/razonyang/hb/modules/meta/recommended => ../hb/modules/meta/recommended
 
 // replace github.com/razonyang/hugo-mod-pwa => ../hugo-mod-pwa
 
@@ -49,14 +49,16 @@ require (
 	github.com/razonyang/hb/modules/meta/docs v0.1.1 // indirect
 	github.com/razonyang/hb/modules/meta/footer v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/header v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/recommended v0.1.1 // indirect
+	github.com/razonyang/hb/modules/meta/recommended v0.1.2 // indirect
 	github.com/razonyang/hb/modules/meta/seo v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/standard v0.2.0 // indirect
+	github.com/razonyang/hb/modules/meta/standard v0.2.1 // indirect
 	github.com/razonyang/hb/modules/noscript v0.1.0 // indirect
 	github.com/razonyang/hb/modules/progress-bar v0.3.1 // indirect
 	github.com/razonyang/hb/modules/pwa v0.1.1 // indirect
 	github.com/razonyang/hb/modules/scrollbar v0.1.0 // indirect
 	github.com/razonyang/hb/modules/socials v0.3.1 // indirect
+	github.com/razonyang/hb/modules/syntax-highlighting v0.1.0 // indirect
+	github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.2.0 // indirect
 	github.com/razonyang/hugo-mod-bootstrap v0.6.4 // indirect
 	github.com/razonyang/hugo-mod-code-block-panel v0.1.2 // indirect
 	github.com/razonyang/hugo-mod-fuse-js v0.1.0 // indirect

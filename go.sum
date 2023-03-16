@@ -75,12 +75,12 @@ github.com/razonyang/hb/modules/meta/footer v0.1.0 h1:hBguI3T+pjFeiXifKzmDVG3S87
 github.com/razonyang/hb/modules/meta/footer v0.1.0/go.mod h1:DpA2BcvKFMsUkolYtGIoC6+edn9aJOT7aw46jdn0X2k=
 github.com/razonyang/hb/modules/meta/header v0.1.0 h1:y9Eztdzg7CUiIxZ+K1GrLrGkvWd3YzShKU3G97iqK4k=
 github.com/razonyang/hb/modules/meta/header v0.1.0/go.mod h1:XFzDRcmZg8NsYsE9pvDKWYfK4AHcfOEnENC9euLtyQo=
-github.com/razonyang/hb/modules/meta/recommended v0.1.1 h1:3WoEg/0wiPgwzB2IdD0BaukEC7v4jN/qO1rGddecEWY=
-github.com/razonyang/hb/modules/meta/recommended v0.1.1/go.mod h1:CNhpBVP6dfxDfGweQ+XjqU7iMl2VWNMlc+UXXBTCsjI=
+github.com/razonyang/hb/modules/meta/recommended v0.1.2 h1:qbIHaoVlOlZVhoLD+exwtIbUxxnH+01zVwY+QPs6zJ4=
+github.com/razonyang/hb/modules/meta/recommended v0.1.2/go.mod h1:4OPLvd8eg12XNkfq1TPax5EZk+Ft6pOoLKg3JCuL+KY=
 github.com/razonyang/hb/modules/meta/seo v0.1.0 h1:bjjiX2VzEd8ValRbAK4n3owq1RFxhKDudrFdU1usIsY=
 github.com/razonyang/hb/modules/meta/seo v0.1.0/go.mod h1:BL1OUq7M92h23lyj0UC7B8sM1cs8UL6SqHq/137jCiA=
-github.com/razonyang/hb/modules/meta/standard v0.2.0 h1:Zfv5r6LwceLYF5V1rdbVYR2+21wpmYYe3x3VwLkRzlU=
-github.com/razonyang/hb/modules/meta/standard v0.2.0/go.mod h1:xTksQTqyxzmdblwukSs1Bm8muMFLS7ALd4cqRWQvuCE=
+github.com/razonyang/hb/modules/meta/standard v0.2.1 h1:h6rkTh7cMyDzK6iBSAc5Bk6uy45TNaaYJwGiT8hDfqQ=
+github.com/razonyang/hb/modules/meta/standard v0.2.1/go.mod h1:PEhDksib5VoTbIT2PFRN/lgkALyNPS3L1LwqCQykD+s=
 github.com/razonyang/hb/modules/noscript v0.1.0 h1:ww77zRfu3CMAwsrkmnsf/G/ogvqYJvlryEp1q+00QG0=
 github.com/razonyang/hb/modules/noscript v0.1.0/go.mod h1:QcgwDCaXyvXRASHa9vmRs3ppanv1UR8JbH2lEiUNBvA=
 github.com/razonyang/hb/modules/progress-bar v0.3.1 h1:3uwkU4KrTNfsGgaRC/cv9/hF6XkUyKsUOuA3HMalMAc=
@@ -91,6 +91,10 @@ github.com/razonyang/hb/modules/scrollbar v0.1.0 h1:ymRpL+QntCfATPhgH/K0kvS2fnXv
 github.com/razonyang/hb/modules/scrollbar v0.1.0/go.mod h1:ZBdTS8Gg4Smw+g2sGQ7ziO872pWmJZplWcskaiB7450=
 github.com/razonyang/hb/modules/socials v0.3.1 h1:OzewEtOzjI+OFP8ZbZfRzHzxHeRAE4oKCJEpy2RGjCU=
 github.com/razonyang/hb/modules/socials v0.3.1/go.mod h1:XNYDYowVyIz2owO0E9stw0OIn+GFllDSe448c/4Yi8Y=
+github.com/razonyang/hb/modules/syntax-highlighting v0.1.0 h1:AXojvzXgMe6i/RnqkKOByheGgOV9IKovjgYAiFkqQig=
+github.com/razonyang/hb/modules/syntax-highlighting v0.1.0/go.mod h1:7V6cAHZ7UiJMDonYDTz9NfeIhmItEl3h32EsAEvoFTE=
+github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.2.0 h1:tU6GC3ZAQjcF0FqKrYjtBIqgJr9zcVjlfu5KAzfkixY=
+github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.2.0/go.mod h1:I7JdbH6572N1Ip53FVpoqhQ0JCjAY+4GFGtec0pSAHc=
 github.com/razonyang/hugo-mod-bootstrap v0.6.4 h1:6xLMj+1b84tUscaOcpx2sSdybzFUSMkRiaHCg1yHOoQ=
 github.com/razonyang/hugo-mod-bootstrap v0.6.4/go.mod h1:hRonTOd2IvGCfK43V1BrSG9lobfAn9ASSt5EtN1o2Ws=
 github.com/razonyang/hugo-mod-code-block-panel v0.1.2 h1:LPwtUtR6pAUfLkMD0/IYT0Dh8AnlV4nFIl7BnR0t9dk=
