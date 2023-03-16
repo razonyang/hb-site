@@ -9,6 +9,8 @@ categories:
 tags:
   - Module
 images:
+authors:
+  - RazonYang
 ---
 
 In this article, you will learn how to create a HB module.

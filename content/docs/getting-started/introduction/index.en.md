@@ -7,6 +7,8 @@ series:
   - Docs
 tags:
   - Introduction
+authors:
+  - RazonYang
 menu:
   footer:
     parent: docs

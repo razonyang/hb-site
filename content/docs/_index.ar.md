@@ -5,9 +5,9 @@ menu:
     name: Docs
     weight: 2
     params:
-      icon: 
-        vendor: font-awesome-regular
-        name: file
+      icon:
+        vendor: bs
+        name: book
   footer:
     identifier: docs
     weight: 30

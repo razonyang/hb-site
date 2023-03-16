@@ -6,6 +6,7 @@ categories = ["模块"]
 tags = ["进度条"]
 series = ["文档"]
 images = []
+authors = ["RazonYang"]
 +++
 
 当在当前标签页和窗口打开一个新页面时，将显示进度条。

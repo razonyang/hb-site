@@ -10,6 +10,8 @@ categories:
 tags:
   - Footer
 images:
+authors:
+  - RazonYang
 ---
 
 The footer modules is a universal footer.

@@ -12,6 +12,10 @@ series = [
   "Docs"
 ]
 nav_weight = 3
+authors = [
+  "RazonYang",
+  "Hugo"
+]
 +++
 
 本文将提供一些能用于 Hugo 内容文件的 Markdown 的基础语法示例。

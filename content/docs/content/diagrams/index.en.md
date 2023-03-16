@@ -4,6 +4,7 @@ date = 2023-01-22T15:20:32+08:00
 tags = ["Mermaid", "GoAT"]
 categories = ["Diagrams"]
 series = ["Docs"]
+authors = ["RazonYang"]
 +++
 
 HB supports GoAT and Mermaid for rendering diagrams.

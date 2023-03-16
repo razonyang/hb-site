@@ -14,6 +14,8 @@ tags:
   - SCSS
   - Style Guide
   - TypeScript
+authors:
+  - RazonYang
 ---
 
 Undoubtedly, the same coding style helps developers to cooperate with each other.

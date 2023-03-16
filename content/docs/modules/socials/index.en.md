@@ -10,6 +10,8 @@ tags:
   - Socials
   - Social Links
 images:
+authors:
+  - RazonYang
 ---
 
 The socials module is a helper to generate social links.

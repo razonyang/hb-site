@@ -10,6 +10,8 @@ tags:
   - Image
   - Background Image
 images:
+authors:
+  - RazonYang
 ---
 
 As literally, this module sets the background image for pages.

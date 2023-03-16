@@ -8,6 +8,8 @@ series:
 categories:
   - 安装
 tags:
+authors:
+  - RazonYang
 menu:
   footer:
     parent: docs

@@ -1,12 +1,14 @@
 ---
 title: Blog
-layout: index
 menu:
   main:
-    identifier: blog
+    name: "Posts"
+    parent: blog
     weight: 3
     params:
       icon: 
-        vendor: font-awesome-solid
-        name: blog
+        vendor: bs
+        name: file-richtext
+        className: text-primary
+      description: Posts list.
 ---

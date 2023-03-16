@@ -10,6 +10,8 @@ categories:
 tags:
   - 原型
 images:
+authors:
+  - RazonYang
 ---
 
 内容原型是用于创建内容的模板。

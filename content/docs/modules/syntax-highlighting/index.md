@@ -8,6 +8,8 @@ categories:
   - Module
 tags:
   - Syntax Highlighting
+authors:
+  - RazonYang
 ---
 
 HB provides various of syntax highlighting modules, this article lists the supported styles.

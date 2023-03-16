@@ -19,6 +19,10 @@ hb:
       twitter: razonyang
       mastodon: razonyang
   blog:
+    home:
+      main_sections:
+        - blog
+        - docs
     paginate: 9
     giscus:
       repo: razonyang/hb-site
@@ -76,4 +80,8 @@ hugopress:
         hb-docs-doc-toc-begin:
           cacheable: true
         hb-docs-doc-toc-end:
+          cacheable: true
+        hb-blog-post-toc-begin:
+          cacheable: true
+        hb-blog-post-toc-end:
           cacheable: true

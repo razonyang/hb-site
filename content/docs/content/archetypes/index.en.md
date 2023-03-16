@@ -8,6 +8,8 @@ categories:
   - Content
 tags:
   - Archetypes
+authors:
+  - RazonYang
 ---
 
 Archetypes are templates used when creating new content. 

@@ -11,6 +11,8 @@ tags:
   - Socials
   - Social Links
 images:
+authors:
+  - RazonYang
 ---
 
 The footer's socials generates social links.

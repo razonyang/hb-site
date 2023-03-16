@@ -9,6 +9,8 @@ categories:
 series:
   - Docs
 tags:
+authors:
+  - RazonYang
 ---
 
 This article shows how to install, uninstall and upgrade modules.

@@ -9,6 +9,8 @@ categories:
   - 配置
 tags:
 images:
+authors:
+  - RazonYang
 menu:
   footer:
     parent: docs

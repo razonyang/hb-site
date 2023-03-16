@@ -10,8 +10,12 @@ categories:
 tags:
   - Cloudflare Pages
 images:
+authors:
+  - RazonYang
 ---
 
-In this section, you'll learn
+In this section, you'll learn how to deploy your site on Cloudflare Pages.
 
 <!--more-->
+
+TBD.

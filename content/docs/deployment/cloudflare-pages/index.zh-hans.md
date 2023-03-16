@@ -10,6 +10,8 @@ categories:
 tags:
   - Cloudflare Pages
 images:
+authors:
+  - RazonYang
 ---
 
 本文将详细说明如何在 Cloudflare Pages 上部署站点。
@@ -18,4 +20,4 @@ images:
 
 ## Click the Create a Project Button
 
-首先打开，
+TBD.

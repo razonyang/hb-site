@@ -2,10 +2,13 @@
 title: 博客
 menu:
   main:
-    identifier: blog
+    name: "文章"
+    parent: blog
     weight: 3
     params:
       icon: 
-        vendor: font-awesome-solid
-        name: blog
+        vendor: bs
+        name: file-richtext
+        className: text-primary
+      description: 文章列表。
 ---

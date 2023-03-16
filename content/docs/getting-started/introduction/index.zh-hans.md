@@ -7,6 +7,8 @@ series:
   - 文档
 tags:
   - 简介
+authors:
+  - RazonYang
 menu:
   footer:
     parent: docs

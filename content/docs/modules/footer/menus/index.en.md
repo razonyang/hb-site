@@ -11,6 +11,8 @@ tags:
   - Footer
   - Footer Menus
 images:
+authors:
+  - RazonYang
 ---
 
 This article describes how to configure the footer's menus.

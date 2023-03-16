@@ -11,6 +11,8 @@ tags:
   - Language Picker
   - Multilingual
 images:
+authors:
+  - RazonYang
 ---
 
 The header's language picker module for users to switch supported languages, it's useful for multilingual sites.

@@ -10,6 +10,8 @@ categories:
 tags:
   - 多语言
 images:
+authors:
+  - RazonYang
 menu:
   footer:
     parent: docs

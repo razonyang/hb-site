@@ -9,7 +9,8 @@ categories:
 tags:
   - noscript
 images:
-featured: true
+authors:
+  - RazonYang
 ---
 
 The noscript module display a alert message if the user browser doesn't support JavaScript.

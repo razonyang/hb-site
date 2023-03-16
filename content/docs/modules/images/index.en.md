@@ -1,5 +1,6 @@
 ---
-title: "Images"
+title: "Hugo Images Module"
+linkTitle: "Images"
 date: 2023-03-14T21:21:03+08:00
 draft: false
 series:
@@ -7,6 +8,8 @@ series:
 categories:
 tags:
 images:
+authors:
+  - RazonYang
 ---
 
 Hugo images module for processing images via URL query string and fragment.

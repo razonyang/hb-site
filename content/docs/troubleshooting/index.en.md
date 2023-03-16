@@ -10,6 +10,7 @@ images = []
   vendor = "bootstrap"
   name = "bug"
   color = "red"
+authors = ["RazonYang"]
 +++
 
 ## POSTCSS CLI

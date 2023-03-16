@@ -9,6 +9,8 @@ categories:
 tags:
   - Blog
 images:
+authors:
+  - RazonYang
 ---
 
 The HB blog module v0.2.0 is released.

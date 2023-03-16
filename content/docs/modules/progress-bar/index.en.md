@@ -6,6 +6,7 @@ categories = ["Module"]
 tags = ["Progress Bar"]
 series = ["Docs"]
 images = []
+authors = ["RazonYang"]
 +++
 
 A progress bar will be shown when opening a new page in the current tab and window.

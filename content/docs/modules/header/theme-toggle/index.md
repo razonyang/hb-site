@@ -12,6 +12,8 @@ tags:
   - Light Mode
   - Dark Mode
 images:
+authors:
+  - RazonYang
 ---
 
 The header's theme toggle module for switching light, dark or auto color mode.

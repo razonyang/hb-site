@@ -10,6 +10,8 @@ categories:
 tags:
   - Search
 images:
+authors:
+  - RazonYang
 ---
 
 The header's search module displays a search button to open the search modal.

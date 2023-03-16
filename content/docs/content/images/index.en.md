@@ -2,8 +2,13 @@
 title = "Images"
 date = 2023-03-13T14:19:06+08:00
 draft = false
+featured = true
+pinned = true
 categories = [
   "Content"
+]
+authors = [
+  "RazonYang"
 ]
 tags = [
   "Image",
@@ -59,12 +64,12 @@ This module uses the query string to process images, and use fragment to align i
 
 | Type                  | Description                                   | Example                               |
 | --------------------- | --------------------------------------------- | ------------------------------------- |
-| Global Image Resource | The images located in the `assets` directory. | `/images/foo.png`                     |
+| Site Image Resource | The images located in the `assets` directory. | `/images/foo.png`                     |
 | Page Image Resource   | The images located in the page's directory.   | `bar.png`                             |
 | Static Image          | The images located in the `static` directory. | `images/fizz.png`                     |
 | External Image        | The external image.                           | `https://example.com/images/buzz.png` |
 
-The image resources begin with a leading slash `/` will be treated as a global image resource.
+The image resources begin with a leading slash `/` will be treated as a site image resource.
 
 Most of the processing methods work only on image resources, except for alignment and resizing.
 

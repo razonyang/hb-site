@@ -10,6 +10,8 @@ tags:
   - Background Image
 images:
   - /images/featured/hb-background-image.webp
+authors:
+  - RazonYang
 ---
 
 The HB Background image module v0.1.0 is released.
