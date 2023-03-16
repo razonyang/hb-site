@@ -4,7 +4,7 @@ go 1.18
 
 // replace github.com/razonyang/hb => ../hb
 
-// replace github.com/razonyang/hb/modules/docs/modules/featured-image => ../hb/modules/docs/modules/featured-image
+// replace github.com/razonyang/hb/modules/bigger-picture => ../hb/modules/bigger-picture
 
 // replace github.com/razonyang/hb/modules/blog/modules/featured-image => ../hb/modules/blog/modules/featured-image
 
@@ -17,7 +17,7 @@ require (
 	github.com/razonyang/hb v0.9.0 // indirect
 	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
 	github.com/razonyang/hb/modules/base v0.4.0 // indirect
-	github.com/razonyang/hb/modules/bigger-picture v0.1.1 // indirect
+	github.com/razonyang/hb/modules/bigger-picture v0.1.2 // indirect
 	github.com/razonyang/hb/modules/blog v0.10.2 // indirect
 	github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.2 // indirect
