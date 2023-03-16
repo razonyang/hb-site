@@ -9,62 +9,24 @@ enableRobotsTXT: true
 module:
   # proxy: https://goproxy.cn
   imports:
-    # site modules
-    - path: github.com/razonyang/hugo-mod-html
-    - path: github.com/razonyang/hb/modules/progress-bar
-    - path: github.com/razonyang/hb/modules/back-to-top
-    - path: github.com/razonyang/hb/modules/base
-    - path: github.com/razonyang/hb/modules/pwa
-    - path: github.com/razonyang/hb/modules/code-block-panel
-    - path: github.com/razonyang/hb/modules/mermaid
-    - path: github.com/razonyang/hb/modules/bootstrap
-    - path: github.com/razonyang/hb/modules/scrollbar
-    - path: github.com/razonyang/hb/modules/bigger-picture
-    - path: github.com/razonyang/hb/modules/noscript
-    - path: github.com/razonyang/hb/modules/carousel
-    - path: github.com/razonyang/hugo-mod-images
-    # - path: github.com/razonyang/hb/modules/background-image
-    # syntax highlighting
-    - path: github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox
-    # seo modules
-    # - path: github.com/razonyang/hugo-mod-seo/modules/base
-    - path: github.com/razonyang/hugo-mod-seo/modules/alternatives
-    - path: github.com/razonyang/hugo-mod-seo/modules/open-graph
-    - path: github.com/razonyang/hugo-mod-seo/modules/schema
-    - path: github.com/razonyang/hugo-mod-seo/modules/twitter-cards
-    - path: github.com/razonyang/hugo-mod-seo/modules/translations
-    - path: github.com/razonyang/hugo-mod-seo/modules/favicons
-    # icons modules
-    - path: github.com/razonyang/hugo-mod-icons
-    - path: github.com/razonyang/hugo-mod-icons/vendors/simple-icons
+    # recommended modules.
+    - path: github.com/razonyang/hb/modules/meta/recommended
+
+    # icons modules.
     - path: github.com/razonyang/hugo-mod-icons/vendors/font-awesome
-    # header modules
-    - path: github.com/razonyang/hb/modules/header/modules/search
-    - path: github.com/razonyang/hb/modules/header/modules/theme-toggle
-    - path: github.com/razonyang/hb/modules/header/modules/language-picker
-    - path: github.com/razonyang/hb/modules/header/modules/socials
-    # footer modules
-    - path: github.com/razonyang/hb/modules/footer/modules/socials
-    # blog modules
-    - path: github.com/razonyang/hb/modules/blog
-    - path: github.com/razonyang/hb/modules/blog/modules/breadcrumb
+  
+    # blog comments engine.
     - path: github.com/razonyang/hb/modules/blog/modules/giscus
     # - path: github.com/razonyang/hb/modules/blog/modules/disqus
     # - path: github.com/razonyang/hb/modules/blog/modules/utterances
-    - path: github.com/razonyang/hb/modules/blog/modules/breadcrumb
-    - path: github.com/razonyang/hb/modules/blog/modules/post-nav
-    - path: github.com/razonyang/hb/modules/blog/modules/related-posts
-    - path: github.com/razonyang/hb/modules/blog/modules/heading-sign
-    - path: github.com/razonyang/hb/modules/blog/modules/featured-image
-    # docs modules
-    - path: github.com/razonyang/hb/modules/docs
-    - path: github.com/razonyang/hb/modules/docs/modules/breadcrumb
-    - path: github.com/razonyang/hb/modules/docs/modules/featured-image
-    - path: github.com/razonyang/hb/modules/docs/modules/doc-nav
+  
+    # docs comments engine.
     - path: github.com/razonyang/hb/modules/docs/modules/giscus
     # - path: github.com/razonyang/hb/modules/docs/modules/utterances
     # - path: github.com/razonyang/hb/modules/docs/modules/disqus
-    - path: github.com/razonyang/hb/modules/docs/modules/heading-sign
+
+    # others.
+    # - path: github.com/razonyang/hb/modules/background-image
 
 outputs:
   home:
