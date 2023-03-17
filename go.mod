@@ -4,7 +4,7 @@ go 1.18
 
 // replace github.com/razonyang/hb => ../hb
 
-// replace github.com/razonyang/hb/modules/meta/standard => ../hb/modules/meta/standard
+// replace github.com/razonyang/hb/modules/blog => ../hb/modules/blog
 
 // replace github.com/razonyang/hb/modules/meta/recommended => ../hb/modules/meta/recommended
 
