@@ -29,7 +29,7 @@ require (
 	github.com/razonyang/hb/modules/breadcrumb v0.1.2 // indirect
 	github.com/razonyang/hb/modules/carousel v0.2.0 // indirect
 	github.com/razonyang/hb/modules/code-block-panel v0.1.1 // indirect
-	github.com/razonyang/hb/modules/docs v0.2.3 // indirect
+	github.com/razonyang/hb/modules/docs v0.2.4 // indirect
 	github.com/razonyang/hb/modules/docs/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.3 // indirect
 	github.com/razonyang/hb/modules/docs/modules/featured-image v0.1.3 // indirect
@@ -46,10 +46,10 @@ require (
 	github.com/razonyang/hb/modules/mermaid v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/blog v0.1.2 // indirect
 	github.com/razonyang/hb/modules/meta/content v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/docs v0.1.1 // indirect
+	github.com/razonyang/hb/modules/meta/docs v0.1.2 // indirect
 	github.com/razonyang/hb/modules/meta/footer v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/header v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/recommended v0.1.3 // indirect
+	github.com/razonyang/hb/modules/meta/recommended v0.1.4 // indirect
 	github.com/razonyang/hb/modules/meta/seo v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/standard v0.2.2 // indirect
 	github.com/razonyang/hb/modules/noscript v0.1.0 // indirect
