@@ -18,7 +18,7 @@ require (
 	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
 	github.com/razonyang/hb/modules/base v0.4.0 // indirect
 	github.com/razonyang/hb/modules/bigger-picture v0.1.2 // indirect
-	github.com/razonyang/hb/modules/blog v0.10.2 // indirect
+	github.com/razonyang/hb/modules/blog v0.11.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 // indirect
 	github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.2 // indirect
 	github.com/razonyang/hb/modules/blog/modules/giscus v0.1.0 // indirect
@@ -44,14 +44,14 @@ require (
 	github.com/razonyang/hb/modules/header/modules/theme-toggle v0.1.3 // indirect
 	github.com/razonyang/hb/modules/heading-sign v0.1.0 // indirect
 	github.com/razonyang/hb/modules/mermaid v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/blog v0.1.1 // indirect
+	github.com/razonyang/hb/modules/meta/blog v0.1.2 // indirect
 	github.com/razonyang/hb/modules/meta/content v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/docs v0.1.1 // indirect
 	github.com/razonyang/hb/modules/meta/footer v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/header v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/recommended v0.1.2 // indirect
+	github.com/razonyang/hb/modules/meta/recommended v0.1.3 // indirect
 	github.com/razonyang/hb/modules/meta/seo v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/standard v0.2.1 // indirect
+	github.com/razonyang/hb/modules/meta/standard v0.2.2 // indirect
 	github.com/razonyang/hb/modules/noscript v0.1.0 // indirect
 	github.com/razonyang/hb/modules/progress-bar v0.3.1 // indirect
 	github.com/razonyang/hb/modules/pwa v0.1.1 // indirect
